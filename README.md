@@ -3,7 +3,7 @@
 This is a test.
 
 Where do i obtain game patches from?
-- You can obtain game [patches](https://github.com/xenia-canary/game-patches/releases/latest/download/game-patches.zip) from here or this [link.](https://github.com/xenia-canary/game-patches)
+- You can obtain game [patches](https://github.com/xenia-canary/game-patches/releases/latest/download/game-patches.zip) from here or from this [link.](https://github.com/xenia-canary/game-patches)
 
 ---
 
@@ -33,5 +33,5 @@ Why do my DLCs not work?
 | Mass Effect 1 | internal_display_resolution: 2-5<br>use_new_decoder = true | | Base | No
 | Metal Gear Solid HD Collection | gpu_allow_invalid_fetch_constants = true<br>cl = "MGS2.xex"<br>cl = "MGS3.xex" | | Base | No
 | Metal Gear Solid V | d3d12_readback_resolve = true<br>no_discard_stencil_in_transfer_pipelines = true<br>native_stencil_value_output_d3d12_intel = true | | Base | No
-| Minecraft | vsync = false<br>mount_cache = true | [Patch](https://github.com/xenia-canary/game-patches/blob/main/patches/584111F7%20-%20Minecraft%20(XBLA%2C%20TU0).patch.toml)<br>[TU 1 Patch](https://github.com/xenia-canary/game-patches/blob/main/patches/584111F7%20-%20Minecraft%20(XBLA%2C%20TU1).patch.toml)<br>[TU 2 Patch](https://github.com/xenia-canary/game-patches/blob/main/patches/584111F7%20-%20Minecraft%20(XBLA%2C%20TU2).patch.toml)<br>[TU 3 Patch](https://github.com/xenia-canary/game-patches/blob/main/patches/584111F7%20-%20Minecraft%20(XBLA%2C%20TU3).patch.toml)<br>[TU 4 Patch](https://github.com/xenia-canary/game-patches/blob/main/patches/584111F7%20-%20Minecraft%20(XBLA%2C%20TU4).patch.toml)
+| Minecraft | vsync = false<br>mount_cache = true | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook)<br>[Patch](https://github.com/xenia-canary/game-patches/blob/main/patches/584111F7%20-%20Minecraft%20(XBLA%2C%20TU0).patch.toml)<br>[TU 1 Patch](https://github.com/xenia-canary/game-patches/blob/main/patches/584111F7%20-%20Minecraft%20(XBLA%2C%20TU1).patch.toml)<br>[TU 2 Patch](https://github.com/xenia-canary/game-patches/blob/main/patches/584111F7%20-%20Minecraft%20(XBLA%2C%20TU2).patch.toml)<br>[TU 3 Patch](https://github.com/xenia-canary/game-patches/blob/main/patches/584111F7%20-%20Minecraft%20(XBLA%2C%20TU3).patch.toml)<br>[TU 4 Patch](https://github.com/xenia-canary/game-patches/blob/main/patches/584111F7%20-%20Minecraft%20(XBLA%2C%20TU4).patch.toml)
 | Operation Darkness | use_fuzzy_alpha_epsilon = false | | Base | No
