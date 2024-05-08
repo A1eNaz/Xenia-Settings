@@ -11,7 +11,7 @@ Where do i obtain game patches from?
 
 Why do my XBLA games play on trial mode?</br>
 Why do my DLCs not work?
-- change license_mask = 1 in the xenia config
+- Change license_mask = 1 in the xenia config
 
 | Game | Settings | Patches/Plugins | Recommended TUs | Netplay Compatibility
 |---|---|---|---|---|
