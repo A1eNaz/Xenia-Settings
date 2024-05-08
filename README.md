@@ -13,7 +13,7 @@ Why do my XBLA games play on trial mode?</br>
 Why do my DLCs not work?
 - Change license_mask = 1 in the xenia config
 
-| Game | Settings | Patches/Plugins | Recommended TUs | Netplay Compatibility
+| Game | Settings | Plugins | Recommended TUs | Netplay Compatibility
 |---|---|---|---|---|
 | Aurora Dashboard | allow_game_relative_writes = true</br>protect_zero = false</br>gpu_allow_invalid_fetch_constants = true | | Base | No
 | Battlefield: Bad Company | d3d12_readback_resolve = true | | Base | No
