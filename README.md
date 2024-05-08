@@ -2,7 +2,8 @@
 
 This is a test.
 
-obtain game [patches](https://github.com/xenia-canary/game-patches/releases/latest/download/game-patches.zip) from here.
+- Where do i obtain game patches from?
+You can obtain game [patches](https://github.com/xenia-canary/game-patches/releases/latest/download/game-patches.zip) from here or this [link.](https://github.com/xenia-canary/game-patches)
 
 ---
 
