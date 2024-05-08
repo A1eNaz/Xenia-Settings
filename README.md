@@ -12,8 +12,8 @@ Why do my DLCs not work?
 
 
 | Game | Notes | Patches/Plugins | Recommended TUs | Netplay Compatibility
-|---|---|---|---|---|
-| <center>Aurora Dashboard | allow_game_relative_writes = true</br>protect_zero = false</br>gpu_allow_invalid_fetch_constants = true | | | No
+|---|---|---|---|---|<center>
+| Aurora Dashboard | allow_game_relative_writes = true</br>protect_zero = false</br>gpu_allow_invalid_fetch_constants = true | | | No
 | Battlefield: Bad Company | d3d12_readback_resolve = true | | Base | No
 | Borderlands 2 | [PLAY ON MASTER]<br>vsync = false | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/tree/netplay_canary_experimental_readme?tab=readme-ov-file#netplay-fork)
-| Call of Duty: Advanced Warfare | d3d12_readback_resolve = true</br>protect_zero = false | | TU 17 | [Yes](https://github.com/AdrianCassar/xenia-canary/tree/netplay_canary_experimental_readme?tab=readme-ov-file#netplay-fork)</center>
+| Call of Duty: Advanced Warfare | d3d12_readback_resolve = true</br>protect_zero = false | | <center>TU 17</center> | [Yes](https://github.com/AdrianCassar/xenia-canary/tree/netplay_canary_experimental_readme?tab=readme-ov-file#netplay-fork)</center>
