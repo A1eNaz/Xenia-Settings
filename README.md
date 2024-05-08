@@ -2,7 +2,7 @@
 
 This is a test.
 
-test
+obtain game [patches](https://github.com/xenia-canary/game-patches/releases/latest/download/game-patches.zip) from here.
 
 ---
 
