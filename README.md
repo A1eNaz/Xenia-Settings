@@ -1,4 +1,4 @@
-# Xenia Config Settings for Games/Apps
+# Xenia Config Settings for Games
 
 Where do i obtain Game Patches from?
 - You can obtain Game [Patches](https://github.com/xenia-canary/game-patches/releases/latest/download/game-patches.zip) from here or from this [link.](https://github.com/xenia-canary/game-patches)
@@ -24,7 +24,7 @@ Why do my DLCs not work?
 
 ---
 
-## Games/Apps List
+## Games List
 
 | Game | Settings | Plugins | Recommended TUs | Netplay Compatibility
 |---|---|---|---|---|
