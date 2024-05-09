@@ -1,6 +1,4 @@
-# test
-
-This is a test.
+# Xenia Config Settings for Games/Apps
 
 Where do i obtain Game Patches from?
 - You can obtain Game [Patches](https://github.com/xenia-canary/game-patches/releases/latest/download/game-patches.zip) from here or from this [link.](https://github.com/xenia-canary/game-patches)
@@ -10,11 +8,11 @@ Some games don't have a 60/Unlocked FPS Patch.
 
 How do i use Mouse & Keyboard for Xenia?
 - From this [link](https://github.com/marinesciencedude/xenia-canary-mousehook) but only a few games have mouse support.
-you can make your own keybinds with this method in the bindings.ini file:
-[Media ID - Game Name]
-W = LS-Up
-S = LS-Down
-A = LS-Left
+you can make your own keybinds with this method in the bindings.ini file:<br>
+[Media ID - Game Name]<br>
+W = LS-Up<br>
+S = LS-Down<br>
+A = LS-Left<br>
 D = LS-Right
 
 How do i play games on Xenia with Online Support?
@@ -26,7 +24,7 @@ Why do my DLCs not work?
 
 ---
 
-## Config Settings for Games/Apps
+## Games/Apps List
 
 | Game | Settings | Plugins | Recommended TUs | Netplay Compatibility
 |---|---|---|---|---|
