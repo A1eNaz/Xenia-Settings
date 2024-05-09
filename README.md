@@ -7,7 +7,7 @@ Some games don't have a 60/Unlocked FPS Patch.
 - Either wait for a patch or use [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/) with this [config](https://github.com/joever2022/test/blob/main/LS%20Config.png) as an alternative for games that speedup with VSync. (costs 7 dollars tho.)
 
 How do i use Mouse & Keyboard for Xenia?
-- From this [link](https://github.com/marinesciencedude/xenia-canary-mousehook) but only a few games have mouse support.
+- From this [link](https://github.com/marinesciencedude/xenia-canary-mousehook) but only a few games have Mouse Support.
 You can make your own Keybinds with this method in the bindings.ini file:<br>
 [Media ID - Game Name]<br>
 Keybind = Controller Bind<br>
