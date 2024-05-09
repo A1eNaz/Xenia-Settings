@@ -2,13 +2,25 @@
 
 This is a test.
 
-Where do i obtain game patches from?
-- You can obtain game [patches](https://github.com/xenia-canary/game-patches/releases/latest/download/game-patches.zip) from here or from this [link.](https://github.com/xenia-canary/game-patches)
+Where do i obtain Game Patches from?
+- You can obtain Game [Patches](https://github.com/xenia-canary/game-patches/releases/latest/download/game-patches.zip) from here or from this [link.](https://github.com/xenia-canary/game-patches)
 
-Where can i play my games online?
+Some games don't have a 60/Unlocked FPS Patch.
+- either wait for a patch or use [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/) with this [config](https://github.com/joever2022/test/blob/main/LS%20Config.png) as an alternative. (costs 7 dollars tho.)
+
+How do i use Mouse & Keyboard for Xenia?
+- From this [link](https://github.com/marinesciencedude/xenia-canary-mousehook) but only a few games have mouse support.
+you can make your own keybinds with this method in the bindings.ini file:
+[Media ID - Game Name]
+W = LS-Up
+S = LS-Down
+A = LS-Left
+D = LS-Right
+
+How do i play games on Xenia with Online Support?
 - you can get it from this [link.](https://github.com/AdrianCassar/xenia-canary/tree/netplay_canary_experimental_readme?tab=readme-ov-file#netplay-fork)
 
-Why do my XBLA games play on trial mode?</br>
+Why do my XBLA games play on Trial mode?</br>
 Why do my DLCs not work?
 - Change license_mask = 1 in the xenia config
 
