@@ -8,12 +8,11 @@ Some games don't have a 60/Unlocked FPS Patch.
 
 How do i use Mouse & Keyboard for Xenia?
 - From this [link](https://github.com/marinesciencedude/xenia-canary-mousehook) but only a few games have mouse support.
-You can make your own keybinds with this method in the bindings.ini file:<br>
+You can make your own Keybinds with this method in the bindings.ini file:<br>
 [Media ID - Game Name]<br>
-W = LS-Up<br>
-S = LS-Down<br>
-A = LS-Left<br>
-D = LS-Right
+Keybind = Controller Bind<br>
+[eg. W = LS-Up]
+
 
 How do i play games on Xenia with Online Support?
 - You can get it from this [link.](https://github.com/AdrianCassar/xenia-canary/tree/netplay_canary_experimental_readme?tab=readme-ov-file#netplay-fork)
