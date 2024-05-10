@@ -1,5 +1,8 @@
 # Xenia Config Settings for Games
 
+How do i play games with 2 discs?
+- Can't be bothered to write a guide so just follow Sowa_95's video: https://youtube.com/clip/Ugkx4hDbFhE9AKnRKHwOR_1TrCWK-DnulaZd?si=sc6Ufgx4BSl1h2_C
+
 Where do i obtain Game Patches from?
 - You can obtain Game [Patches](https://github.com/xenia-canary/game-patches/releases/latest/download/game-patches.zip) from here or from this [link.](https://github.com/xenia-canary/game-patches)
 
