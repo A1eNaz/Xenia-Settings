@@ -28,6 +28,8 @@ Why do my DLCs not work?
 
 ## Games List
 
+press CTRL+F and search for the game you want.
+
 | Game | Settings | Plugins | Recommended TUs | Netplay Compatibility
 |---|---|---|---|---|
 | Aurora Dashboard | allow_game_relative_writes = true</br>protect_zero = false</br>gpu_allow_invalid_fetch_constants = true | | Base | No
