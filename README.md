@@ -32,8 +32,10 @@ Why do my DLCs not work?
 
 | Game | Settings | Plugins | Recommended TUs | Netplay Compatibility
 |---|---|---|---|---|
+| Ace Combat 6 | ac6_ground_fix = true<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | | Base | No
 | Aurora Dashboard | allow_game_relative_writes = true</br>protect_zero = false</br>gpu_allow_invalid_fetch_constants = true | | Base | No
 | Battlefield: Bad Company | d3d12_readback_resolve = true | | Base | No
+| Bare Knuckle | license_mask = -1 | | TU 2 | No
 | Blue Dragon | d3d12_clear_memory_page_state = true | | Base | No
 | Borderlands 2 | vsync = false<br>framerate_limit = 0<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/tree/netplay_canary_experimental_readme?tab=readme-ov-file#netplay-fork)
 | Call of Duty: Advanced Warfare | d3d12_readback_resolve = true</br>protect_zero = false | | TU 17 | [Yes](https://github.com/AdrianCassar/xenia-canary/tree/netplay_canary_experimental_readme?tab=readme-ov-file#netplay-fork)
