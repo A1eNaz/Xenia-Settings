@@ -56,6 +56,9 @@ Why do my DLCs not work?
 | Gears of War 2 | query_occlusion_fake_sample_count = -1<br>vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/tree/netplay_canary_experimental_readme?tab=readme-ov-file#netplay-fork)
 | Gears of War 3 | protect_zero = false<br>vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/tree/netplay_canary_experimental_readme?tab=readme-ov-file#netplay-fork)
 | Gears of War: Judgment | query_occlusion_fake_sample_count = -1<br>vsync = false<br>framerate_limit = 0 | | Base | No
+| Geometry Wars: Retro Evolved | apu_max_queued_frames = 16<br>use_new_decoder = true<br>use_dedicated_xma_thread = false | | Base | No
+| Geometry Wars: Retro Evolved 2 | apu_max_queued_frames = 16<br>use_dedicated_xma_thread = false | | Base | No
+| Geometry Wars 3: Dimensions | apu_max_queued_frames = 16<br>use_new_decoder = true<br>use_dedicated_xma_thread = false | | Base | No
 | Ghost Recon Advanced Warfighter 2 | vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/tree/netplay_canary_experimental_readme?tab=readme-ov-file#netplay-fork)
 | Grand Theft Auto IV | gpu = vulkan | | TU 8 | No
 | Grand Theft Auto: Episodes from Liberty City | gpu = vulkan | | Base | No
