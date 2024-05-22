@@ -22,7 +22,7 @@ How do i play games on Xenia with Online Support?
 
 Why do my XBLA games play on Trial mode?</br>
 Why do my DLCs not work?
-- Change license_mask = 1 in the xenia config
+- Change license_mask = 1 in the xenia config (or license_mask = -1)
 
 ---
 
@@ -68,6 +68,7 @@ Why do my DLCs not work?
 | Halo 3 ODST | d3d12_readback_resolve = true | | Base | No
 | Halo 4 | d3d12_readback_resolve = true<br>query_occlusion_fake_sample_count = -1 | | Base | No
 | Halo Reach | d3d12_readback_resolve = true<br>query_occlusion_fake_sample_count = -1 | | Base | No
+| Kameo: Elements of Power | use_dedicated_xma_thread = false<br>use_new_decoder = true | | TU 2 | [Yes](https://github.com/AdrianCassar/xenia-canary/tree/netplay_canary_experimental_readme?tab=readme-ov-file#netplay-fork)
 | Kane & Lynch 2: Dog Days | d3d12_readback_resolve = true | | TU 1 | No
 | Left 4 Dead | d3d12_readback_resolve = true<br>cl = "-dvd -novid" | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/tree/netplay_canary_experimental_readme?tab=readme-ov-file#netplay-fork)
 | Left 4 Dead 2 | d3d12_readback_resolve = true<br>cl = "mat_motion_blur_percent_of_screen_max 0" | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook)<br>[Unlock FPS](https://raw.githubusercontent.com/joever2022/test/main/L4D2%20Unlock%20FPS.rar) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/tree/netplay_canary_experimental_readme?tab=readme-ov-file#netplay-fork)
