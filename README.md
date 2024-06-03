@@ -56,20 +56,20 @@ Why do my DLCs not work?
 | Forza Motorsport 4 | [2022 Build](https://raw.githubusercontent.com/joever2022/test/main/xenia_canary.exe)<br>mount_cache = true<br>query_occlusion_fake_sample_count = -1<br>d3d12_readback_resolve = true<br>gpu_allow_invalid_fetch_constants = true | [Project Forza Plus](https://www.reddit.com/r/ProjectForzaPlus/comments/11a4qus/welcome_to_the_project_forza_plus_sub/) | Base | No
 | Gears of War 2 | query_occlusion_fake_sample_count = -1<br>vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Gears of War 3 | protect_zero = false<br>vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
-| Gears of War: Judgment | query_occlusion_fake_sample_count = -1<br>vsync = false<br>framerate_limit = 0 | | Base | No
+| Gears of War: Judgment | query_occlusion_fake_sample_count = -1<br>vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Geometry Wars: Retro Evolved | apu_max_queued_frames = 16<br>use_new_decoder = true<br>use_dedicated_xma_thread = false | | Base | No
 | Geometry Wars: Retro Evolved 2 | apu_max_queued_frames = 16<br>use_dedicated_xma_thread = false | | Base | No
 | Geometry Wars 3: Dimensions | apu_max_queued_frames = 16<br>use_new_decoder = true<br>use_dedicated_xma_thread = false | | Base | No
 | Ghost Recon Advanced Warfighter 2 | vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
-| GoldenEye XBLA | | [Community Edition Updater](http://n64vault.com/ge-xbla-tools:community-edition-updater) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| GoldenEye XBLA | | [Community Edition Updater](http://n64vault.com/ge-xbla-tools:community-edition-updater)<br>[Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Grand Theft Auto IV | gpu = vulkan | | TU 8 | No
 | Grand Theft Auto: Episodes from Liberty City | gpu = vulkan | | Base | No
 | Grand Theft Auto V | d3d12_readback_resolve = true<br>protect_zero = false<br>query_occlusion_fake_sample_count = -1<br>query_occlusion_fake_sample_count = 1000 | | TU 26 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Gundam Operation Troy | render_target_path_d3d12 = "rov" | [English Patch](https://github.com/Eight-Mansions/MSGOT/releases) | TU 1 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
-| Halo 3 | d3d12_readback_resolve = true | | V13.2 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
-| Halo 3 ODST | d3d12_readback_resolve = true | | Base | No
-| Halo 4 | d3d12_readback_resolve = true<br>query_occlusion_fake_sample_count = -1 | | Base | No
-| Halo Reach | d3d12_readback_resolve = true<br>query_occlusion_fake_sample_count = -1 | | Base | No
+| Halo 3 | d3d12_readback_resolve = true | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | V13.2 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Halo 3 ODST | d3d12_readback_resolve = true | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | No
+| Halo 4 | d3d12_readback_resolve = true<br>query_occlusion_fake_sample_count = -1 | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | No
+| Halo Reach | d3d12_readback_resolve = true<br>query_occlusion_fake_sample_count = -1 | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | No
 | Kameo: Elements of Power | use_dedicated_xma_thread = false<br>use_new_decoder = true | | TU 2 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Kane & Lynch 2: Dog Days | d3d12_readback_resolve = true | | TU 1 | No
 | Left 4 Dead | d3d12_readback_resolve = true<br>cl = "-dvd -novid" | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
@@ -87,6 +87,7 @@ Why do my DLCs not work?
 | Operation Darkness | use_fuzzy_alpha_epsilon = false | | Base | No
 | Perfect Dark | clear_memory_page_state = true | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | PAYDAY 2 | vsync = false<br>framerate_limit = 0 | | TU 1 | No
+| Portal | d3d12_readback_resolve = true | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | No
 | Portal 2 | d3d12_readback_resolve = true | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Rainbow Six: Vegas 2 | vsync = false<br>framerate_limit = 0<br>clear_memory_page_state = true | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Red Dead Redemption | [Unlock Social Club Content](https://github.com/joever2022/Xenia-Game-Settings/blob/main/RDR1%20Social%20Club.png)<br>vsync = false<br>framerate_limit = 0<br>query_occlusion_fake_sample_count = -1 | [Reality Redemption](https://gtaforums.com/topic/989469-rel-wip-rdr-reality-redemption-overhaul-project/) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
