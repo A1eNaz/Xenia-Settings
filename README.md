@@ -32,10 +32,10 @@ Why do my DLCs not work?
 
 | Game | Settings | Plugins | Recommended TUs | Netplay Compatibility
 |---|---|---|---|---|
-| 50 Cent: Blood on the Sand | render_target_path_d3d12 = "rov"<br>vsync = false<br>framerate_limit = 0
+| 50 Cent: Blood on the Sand | render_target_path_d3d12 = "rov"<br>vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Ace Combat 6 | ac6_ground_fix = true<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | | Base | No
 | Aliens: Colonial Marines | vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
-| Army of Two | internal_display_resolution = 6<br>scribble_heap = true<br>query_occlusion_fake_sample_count = -1 | | Base | No
+| Army of Two | internal_display_resolution = 2-6<br>scribble_heap = true<br>query_occlusion_fake_sample_count = -1 | | Base | No
 | Aurora Dashboard | allow_game_relative_writes = true</br>protect_zero = false</br>gpu_allow_invalid_fetch_constants = true | | Base | No
 | Battlefield: Bad Company | d3d12_readback_resolve = true | | Base | No
 | Bare Knuckle | | | TU 2 | No
@@ -98,7 +98,7 @@ Why do my DLCs not work?
 | Portal 2 | d3d12_readback_resolve = true | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Rainbow Six: Vegas 2 | vsync = false<br>framerate_limit = 0<br>clear_memory_page_state = true | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Red Dead Redemption | [Unlock Social Club Content](https://github.com/joever2022/Xenia-Game-Settings/blob/main/RDR1%20Social%20Club.png)<br>vsync = false<br>framerate_limit = 0<br>query_occlusion_fake_sample_count = -1 | [Reality Redemption](https://gtaforums.com/topic/989469-rel-wip-rdr-reality-redemption-overhaul-project/) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
-| Red Faction Armageddon | d3d12_readback_resolve = true | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Red Faction: Armageddon | d3d12_readback_resolve = true | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Red Faction: Guerrilla | vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Saints Row | apu_max_queued_frames = 3<br>protect_zero = false | | TU 1 | not yet.
 | Saints Row 2 | apu_max_queued_frames = 3<br>protect_zero = false<br>query_occlusion_fake_sample_count = -1 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
@@ -106,7 +106,7 @@ Why do my DLCs not work?
 | Saints Row IV | d3d12_readback_resolve = true<br>render_target_path_d3d12 = "rov"<br>protect_zero = false<br>vsync = false<br>framerate_limit = 0 | | TU 7 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Silent Hill Downpour | render_target_path_d3d12 = "rov" | | Base | No
 | Skate 3 | vsync = false<br>framerate_limit = 0 | | Base | No
-| Sonic & All-Stars Racing Transformed | vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Sonic & All-Stars Racing Transformed | vsync = false<br>framerate_limit = 0<br>render_target_path_d3d12 = "rov" | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Sonic & SEGA All-Stars Racing | vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Sonic Free Riders | gpu_allow_invalid_fetch_constants = true | [No Kinect](https://gamebanana.com/mods/456720) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Sonic Unleashed | [Setup Guide](https://gamebanana.com/tuts/17062) | | TU 2 | No
