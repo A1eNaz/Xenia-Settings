@@ -50,6 +50,7 @@ Why do my DLCs not work?
 | Call of Duty: Modern Warfare | cl = "r_vsync 0" | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Call of Duty: Modern Warfare 2 | cl = "+r_vsync 0 +com_maxfps 0" | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Call of Duty: Modern Warfare 3 | cl = "r_vsync 0"<br><br>Netplay Config:<br>allow_plugins = true | [System Link](https://github.com/joever2022/test/raw/main/MW3SystemLink.rar) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Condemned | use_dedicated_xma_thread = false<br>use_new_decoder = true<br> | [Unlocked FPS + Extended FOV](https://github.com/A1eNaz/Xenia-Game-Settings/blob/main/autoexec.cfg) | Base | No
 | Counter-Strike: Global Offensive | break_on_unimplemented_instructions = false</br>clear_memory_page_state = true | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Crackdown | use_dedicated_xma_thread = false<br>use_new_decoder = true<br>d3d12_readback_resolve = true<br>controller_hotkeys = true | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Dead or Alive 4 | clear_memory_page_state = true<br>gpu_allow_invalid_fetch_constants = true<br>postprocess_antialiasing = "fxaa_extreme"<br>draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2<br><br>Netplay Config:<br>protect_zero = false<br>vsync = false<br>framerate_limit = 120 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
