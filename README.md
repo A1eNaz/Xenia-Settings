@@ -37,6 +37,7 @@ Why do my DLCs not work?
 | Aliens: Colonial Marines | vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Army of Two | internal_display_resolution = 2-6<br>scribble_heap = true<br>query_occlusion_fake_sample_count = -1 | | Base | No
 | Aurora Dashboard | allow_game_relative_writes = true</br>protect_zero = false</br>gpu_allow_invalid_fetch_constants = true | | Base | No
+| Batman: Arkham Asylum | internal_display_resolution = 4 | | Base | No
 | Battlefield: Bad Company | d3d12_readback_resolve = true | | Base | No
 | Bare Knuckle | | | TU 2 | No
 | Blue Dragon | d3d12_clear_memory_page_state = true | | Base | No
