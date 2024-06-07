@@ -1,5 +1,8 @@
 # Xenia Config Settings for Games
 
+Where do i download the latest canary from?
+- You download it from [here](https://github.com/xenia-canary/xenia-canary/releases/download/experimental/xenia_canary.zip)
+
 How do i play games with 2 discs?
 - Can't be bothered to write a guide so just follow Sowa_95's video: https://youtube.com/clip/Ugkx4hDbFhE9AKnRKHwOR_1TrCWK-DnulaZd?si=sc6Ufgx4BSl1h2_C
 
