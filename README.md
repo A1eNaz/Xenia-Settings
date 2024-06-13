@@ -122,6 +122,7 @@ Why do my DLCs not work?
 | Spec Ops: The Line | vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Spider-Man Web of Shadows | vsync = false<br>framerate_limit = 0 | | Base | No
 | Splinter Cell: Double Agent | use_dedicated_xma_thread = false<br>use_new_decoder = true<br>protect_zero = false | | V7.0.1 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| SOULCALIBUR II HD | clear_memory_page_state = true | | Base | No
 | TEKKEN 6 | clear_memory_page_state = true<br>draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2<br><br>Netplay Config:<br>vsync = false<br>framerate_limit = 120 | | TU 3 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | The Darkness | query_occlusion_fake_sample_count = -1<br>[Bloom Fix](https://github.com/xenia-canary/game-patches/blob/main/patches/545407EE%20-%20The%20Darkness.patch.toml)<br>vsync = false<br>framerate_limit = 0  | | Base | No
 | The Orange Box | d3d12_readback_resolve = true<br>cl = "-dvd -game hl2"<br>cl = "-dvd -game episodic"<br>cl = "-dvd -game ep2"<br>cl = "-dvd -game tf"<br>cl = "-dvd -game portal" | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
