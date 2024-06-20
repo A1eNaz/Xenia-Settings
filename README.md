@@ -90,7 +90,7 @@ Why do my DLCs not work?
 | Left 4 Dead 2 | d3d12_readback_resolve = true<br>cl = "mat_motion_blur_percent_of_screen_max 0" | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook)<br>[Unlock FPS](https://raw.githubusercontent.com/A1eNaz/Xenia-Game-Settings/main/L4D2%20Unlock%20FPS.zip) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Marvel Ultimate Alliance | protect_zero = false<br>query_occlusion_fake_sample_count = -1<br>vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Mass Effect 1 | internal_display_resolution: 2-5<br>use_new_decoder = true | | Base | No
-| Metal Gear Solid HD Collection | gpu_allow_invalid_fetch_constants = true<br>cl = "MGS2.xex"<br>cl = "MGS3.xex" | | Base | No
+| Metal Gear Solid HD Collection | gpu_allow_invalid_fetch_constants = true<br>apu_max_queued_frames = 16<br>cl = "MGS2.xex"<br>cl = "MGS3.xex" | | Base | No
 | Metal Gear Solid V | d3d12_readback_resolve = true<br>no_discard_stencil_in_transfer_pipelines = true<br>native_stencil_value_output_d3d12_intel = true | | Base | No
 | Midnight Club: Los Angeles | d3d12_readback_resolve = true<br>query_occlusion_fake_sample_count = -1<br>framerate_limit = 120 | | Base | No
 | Minecraft | vsync = false<br>framerate_limit = 0<br>mount_cache = true | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | No
