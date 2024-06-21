@@ -44,6 +44,7 @@ Why do my DLCs not work?
 | Batman: Arkham Asylum | internal_display_resolution = 4 | | Base | No
 | Battlefield: Bad Company | d3d12_readback_resolve = true | | Base | No
 | Bare Knuckle | | | TU 2 | No
+| BioShock 2 | vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Blue Dragon | d3d12_clear_memory_page_state = true | | Base | No
 | Bodycount | query_occlusion_fake_sample_count = 1 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Borderlands | vsync = false<br>framerate_limit = 0<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
@@ -70,7 +71,7 @@ Why do my DLCs not work?
 | Gears of War | vsync = false<br>framerate_limit = 0<br>[Black Shading Fix](https://github.com/xenia-canary/game-patches/blob/main/patches/4D5307D5%20-%20Gears%20of%20War.patch.toml)<br>[Black Shading Fix TU5](https://github.com/xenia-canary/game-patches/blob/main/patches/4D5307D5%20-%20Gears%20of%20War.patch.toml) | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Gears of War 2 | query_occlusion_fake_sample_count = -1<br>vsync = false<br>framerate_limit = 0<br>[Black Shading Fix](https://github.com/xenia-canary/game-patches/blob/main/patches/4D53082D%20-%20Gears%20of%20War%202.patch.toml)<br>[Black Shading Fix TU6](https://github.com/xenia-canary/game-patches/blob/main/patches/4D53082D%20-%20Gears%20of%20War%202%20(TU6).patch.toml) | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Gears of War 3 | protect_zero = false<br>vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
-| Gears of War: Judgment | vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Gears of War: Judgment | vsync = false<br>framerate_limit = 0 | [Extended FOV](https://raw.githubusercontent.com/A1eNaz/Xenia-Game-Settings/main/Game%20FIles/GoW3%20Extended%20FOV.zip) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Geometry Wars: Retro Evolved | apu_max_queued_frames = 16<br>use_new_decoder = true<br>use_dedicated_xma_thread = false | | Base | No
 | Geometry Wars: Retro Evolved 2 | apu_max_queued_frames = 16<br>use_dedicated_xma_thread = false | | Base | No
 | Geometry Wars 3: Dimensions | apu_max_queued_frames = 16<br>use_new_decoder = true<br>use_dedicated_xma_thread = false | | Base | No
@@ -91,7 +92,7 @@ Why do my DLCs not work?
 | Left 4 Dead 2 | d3d12_readback_resolve = true<br>cl = "mat_motion_blur_percent_of_screen_max 0" | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook)<br>[Unlock FPS](https://raw.githubusercontent.com/A1eNaz/Xenia-Game-Settings/main/Game%20FIles/L4D2%20Unlock%20FPS.zip) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Marvel Ultimate Alliance | protect_zero = false<br>query_occlusion_fake_sample_count = -1<br>vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Mass Effect 1 | internal_display_resolution: 2-5<br>use_new_decoder = true | | Base | No
-| Metal Gear Solid HD Collection | gpu_allow_invalid_fetch_constants = true<br>apu_max_queued_frames = 16<br>cl = "MGS2.xex"<br>cl = "MGS3.xex" | | Base | No
+| Metal Gear Solid HD Collection | gpu_allow_invalid_fetch_constants = true<br>apu_max_queued_frames = 16 [MGS2]<br>cl = "MGS2.xex"<br>cl = "MGS3.xex" | | Base | No
 | Metal Gear Solid V | d3d12_readback_resolve = true<br>no_discard_stencil_in_transfer_pipelines = true<br>native_stencil_value_output_d3d12_intel = true | | Base | No
 | Midnight Club: Los Angeles | d3d12_readback_resolve = true<br>query_occlusion_fake_sample_count = -1<br>framerate_limit = 120 | | Base | No
 | Minecraft | vsync = false<br>framerate_limit = 0<br>mount_cache = true | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | No
