@@ -82,10 +82,10 @@ Why do my DLCs not work?
 | Grand Theft Auto: Episodes from Liberty City | gpu = vulkan | | Base | No
 | Grand Theft Auto V | d3d12_readback_resolve = true<br>protect_zero = false<br>query_occlusion_fake_sample_count = -1 (Fixes Sun Flare clipping)<br>query_occlusion_fake_sample_count = 1000 (Makes Phone Camera work) | | TU 26 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Gundam Operation Troy | render_target_path_d3d12 = "rov" | [English Patch](https://github.com/Eight-Mansions/MSGOT/releases) | TU 1 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
-| Halo 3 | d3d12_readback_resolve = true | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | V13.2 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
-| Halo 3 ODST | d3d12_readback_resolve = true | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | No
+| Halo 3 |  | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | V13.2 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Halo 3 ODST |  | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | No
 | Halo 4 | d3d12_readback_resolve = true<br>query_occlusion_fake_sample_count = -1 | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | No
-| Halo Reach | d3d12_readback_resolve = true<br>query_occlusion_fake_sample_count = -1 | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | No
+| Halo Reach | query_occlusion_fake_sample_count = -1 | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | No
 | Kameo: Elements of Power | use_dedicated_xma_thread = false<br>use_new_decoder = true | | TU 2 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Kane & Lynch 2: Dog Days | d3d12_readback_resolve = true | | TU 1 | No
 | Left 4 Dead | d3d12_readback_resolve = true<br>cl = "-dvd -novid" | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
