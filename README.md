@@ -80,7 +80,7 @@ Why do my DLCs not work?
 | GoldenEye XBLA | | [Community Edition Updater](http://n64vault.com/ge-xbla-tools:community-edition-updater)<br>[Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Grand Theft Auto IV | gpu = vulkan | | TU 8 | No
 | Grand Theft Auto: Episodes from Liberty City | gpu = vulkan | | Base | No
-| Grand Theft Auto V | d3d12_readback_resolve = true<br>protect_zero = false<br>query_occlusion_fake_sample_count = -1<br>query_occlusion_fake_sample_count = 1000 | | TU 26 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Grand Theft Auto V | d3d12_readback_resolve = true<br>protect_zero = false<br>query_occlusion_fake_sample_count = -1 (Fixes Sun Flare clipping)<br>query_occlusion_fake_sample_count = 1000 (Makes Phone Camera work) | | TU 26 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Gundam Operation Troy | render_target_path_d3d12 = "rov" | [English Patch](https://github.com/Eight-Mansions/MSGOT/releases) | TU 1 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Halo 3 | d3d12_readback_resolve = true | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | V13.2 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Halo 3 ODST | d3d12_readback_resolve = true | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | No
@@ -133,3 +133,4 @@ Why do my DLCs not work?
 | The Orange Box | d3d12_readback_resolve = true<br>cl = "-dvd -game hl2"<br>cl = "-dvd -game episodic"<br>cl = "-dvd -game ep2"<br>cl = "-dvd -game tf"<br>cl = "-dvd -game portal" | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | UFC Undisputed 3 | gpu_allow_invalid_fetch_constants = true | | Base | No
 | Ultra Street Fighter IV | vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Viva Piñata: Trouble in Paradise | d3d12_readback_resolve = true (Terrible FPS but Fixes Ingame Screenshots)<br>scribble_heap = true | | Base | No
