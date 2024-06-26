@@ -84,6 +84,7 @@ Why do my DLCs not work?
 | Crysis 3 | d3d12_readback_resolve = true<br>gpu_allow_invalid_fetch_constants = true | | Base | No
 | Damnation | protect_zero = false<br>vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Dark Messiah of Might & Magic Elements | query_occlusion_fake_sample_count = -1<br>d3d12_readback_resolve = true<br>vsync = false<br>framerate_limit = 0 | | Base | No
+| Dark Souls | d3d12_readback_resolve = true<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | | Base | No
 | Dark Souls 2 | d3d12_readback_resolve = true<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | | Base | No
 | DAYTONA USA | internal_display_resolution = 16 | | Base | No
 | Dead or Alive 4 | apu_max_queued_frames = 16<br>use_new_decoder = true<br>use_dedicated_xma_thread = false<br>clear_memory_page_state = true<br>gpu_allow_invalid_fetch_constants = true<br>draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2<br><br>Netplay Config:<br>protect_zero = false<br>vsync = false<br>framerate_limit = 120 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
