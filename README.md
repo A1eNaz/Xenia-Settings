@@ -36,8 +36,10 @@ Why do my DLCs not work?
 | Game | Settings | Plugins | Recommended TUs | Netplay Compatibility
 |---|---|---|---|---|
 | 007: Blood Stone | d3d12_readback_resolve = true<br>disassemble_functions = true | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| 3D Ultra Minigolf | must be extracted in xex format | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | 50 Cent: Blood on the Sand | render_target_path_d3d12 = "rov"<br>vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Ace Combat 6 | ac6_ground_fix = true<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | | Base | No
+| Aegis Wing | must be extracted in xex format | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Alan Wake | d3d12_readback_resolve = true<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | | Base | No
 | Alan Wake's American Nightmare | d3d12_readback_resolve = true | | Base | No
 | Aliens: Colonial Marines | vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
