@@ -84,18 +84,23 @@ Why do my DLCs not work?
 | Crysis 3 | d3d12_readback_resolve = true<br>gpu_allow_invalid_fetch_constants = true | | Base | No
 | Damnation | protect_zero = false<br>vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Dark Messiah of Might & Magic Elements | query_occlusion_fake_sample_count = -1<br>d3d12_readback_resolve = true<br>vsync = false<br>framerate_limit = 0 | | Base | No
-| Dark Souls | d3d12_readback_resolve = true<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | | Base | No
+| Dark Souls | d3d12_readback_resolve = true<br>use_dedicated_xma_thread = false<br>use_new_decoder = true<br>query_occlusion_fake_sample_count = -1 | | Base | No
 | Dark Souls 2 | d3d12_readback_resolve = true<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | | Base | No
 | DAYTONA USA | internal_display_resolution = 16 | | Base | No
 | Dead or Alive 4 | apu_max_queued_frames = 16<br>use_new_decoder = true<br>use_dedicated_xma_thread = false<br>clear_memory_page_state = true<br>gpu_allow_invalid_fetch_constants = true<br>draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2<br><br>Netplay Config:<br>protect_zero = false<br>vsync = false<br>framerate_limit = 120 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Deadpool | [FPS and Lens Flare Fix](https://raw.githubusercontent.com/A1eNaz/Xenia-Game-Settings/main/Game%20FIles/Deadpool.zip) | | Base | No
 | Dead Rising | clear_memory_page_state = true<br> render_target_path_d3d12 = "rov"<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | | Base | No
 | DeathSpank | protect_zero = false | | Base | No
+| DiRT | vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | DiRT 3 | vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| DiRT Showdown | vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Dragon Ball Raging Blast 2 | draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2 | | Base | No
 | DRIVER: San Francisco | vsync = false<br>framerate_limit = 0 | | Base | No
 | Dungeons & Dragons: Daggerdale | protect_zero = false | | Base | No
 | ESCHATOS | render_target_path_d3d12 = "rov" | | Base | No
+| F1 2010 | vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| F1 2011 | vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| F1 2013 | vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Fable 2 | clear_memory_page_state = true | | Base | No
 | Fable Heroes | d3d12_readback_resolve = true | | Base | No
 | Far Cry 3 | scribble_heap = true<br>vsync = false<br>framerate_limit = 0 | | Base | No
@@ -106,11 +111,12 @@ Why do my DLCs not work?
 | FIFA 19 | d3d12_readback_resolve = true<br>clear_memory_page_state = true | | Base | No
 | FIFA Street 3 | Internal_display_resolution = 16 | | Base | No
 | Fight Night Champion | create a 00000002 in the content folder<br>d3d12_readback_resolve = true<br>mount_cache = true<br>mount_scratch = true<br>vsync = false<br>framerate_limit = 0<br>clear_memory_page_state = true<br>apu_max_queued_frames = 3 | | Base | No
+| FlatOut: Ultimate Carnage | vsync = false<br>framerate_limit = 0<br>query_occlusion_fake_sample_count = -1 | | Base | No
 | Forza Horizon | mount_cache = true<br>gpu_allow_invalid_fetch_constants = true<br>framerate_limit = 0 | | Base | No
 | Forza Horizon 2 | mount_cache = true<br>d3d12_readback_resolve = true<br>gpu_allow_invalid_fetch_constants = true | | Base | No
 | Forza Motorsport 2 | mount_cache = true<br>query_occlusion_fake_sample_count = -1 | | Base | No
-| Forza Motorsport 3 | mount_cache = true<br>query_occlusion_fake_sample_count = -1<br>use_new_decoder = true | | Base | No
-| Forza Motorsport 4 | [2022 Build](https://raw.githubusercontent.com/joever2022/test/main/xenia_canary.exe)<br>mount_cache = true<br>query_occlusion_fake_sample_count = -1<br>d3d12_readback_resolve = true<br>use_new_decoder = true<br>use_dedicated_xma_thread = false<br>gpu_allow_invalid_fetch_constants = true<br> | [Project Forza Plus](https://www.reddit.com/r/ProjectForzaPlus/comments/11a4qus/welcome_to_the_project_forza_plus_sub/) | Base | No
+| Forza Motorsport 3 | use_new_decoder = true<br>use_dedicated_xma_thread = false<br>query_occlusion_fake_sample_count = -1<br>mount_cache = true<br>vsync = false<br>framerate_limit = 0 | | Base | No
+| Forza Motorsport 4 | [2022 Build](https://raw.githubusercontent.com/joever2022/test/main/xenia_canary.exe)<br>mount_cache = true<br>query_occlusion_fake_sample_count = -1<br>d3d12_readback_resolve = true<br>use_new_decoder = true<br>use_dedicated_xma_thread = false<br>gpu_allow_invalid_fetch_constants = true | [Project Forza Plus](https://www.reddit.com/r/ProjectForzaPlus/comments/11a4qus/welcome_to_the_project_forza_plus_sub/) | Base | No
 | Freefall Racers | protect_zero = false | | Base | No
 | Frontlines: Fuel of War | protect_zero = false<br>vsync = false<br>framerate_limit = 0<br>disassemble_functions = true | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Fuse | d3d12_readback_resolve = true | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
@@ -192,6 +198,7 @@ Why do my DLCs not work?
 | Pro Evolution Soccer 2017 | d3d12_readback_resolve = true | | Base | No
 | Pro Evolution Soccer 2018 | d3d12_readback_resolve = true | | Base | No
 | Quake 2 | internal_display_resolution = 16 | | Base | No
+| Race Driver: Grid | vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Rainbow Six: Vegas 2 | vsync = false<br>framerate_limit = 0<br>clear_memory_page_state = true | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Rayman Legends | internal_display_resolution = 16 | | Base | No
 | Rayman Origins | internal_display_resolution = 16 | | Base | No
@@ -199,7 +206,7 @@ Why do my DLCs not work?
 | Red Faction: Armageddon | d3d12_readback_resolve = true | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Red Faction: Guerrilla | vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Red Johnson | d3d12_readback_resolve = true<br>vsync = false<br>framerate_limit = 0 | | Base | No
-| Resident Evil: Operation Raccoon City | d3d12_readback_resolve = true<br>query_occlusion_fake_sample_count = -1 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Resident Evil: Operation Raccoon City | d3d12_readback_resolve = true<br>query_occlusion_fake_sample_count = -1<br>vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Ridge Racer Unbounded | query_occlusion_fake_sample_count = -1<br>vsync = false<br>framerate_limit = 0 | | Base | No
 | Sacred 2: Fallen Angel | protect_zero = false<br>internal_display_resolution = 16 | | Base | No
 | Saints Row | apu_max_queued_frames = 16<br>protect_zero = false | | TU 1 | not yet.
@@ -236,6 +243,7 @@ Why do my DLCs not work?
 | TEKKEN Tag Tournament 2 | protect_zero = false<br>draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2 | | Base | No
 | Teenage Mutant Ninja Turtles | protect_zero = false | | Base | No
 | Tenchu Z | protect_zero = false<br>scribble_heap = true<br>clear_memory_page_state = true<br>use_fuzzy_alpha_epsilon = true | | Base | No
+| Test Drive Unlimited | vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | The Club | protect_zero = false<br>vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | The Darkness | query_occlusion_fake_sample_count = -1<br>[Bloom Fix](https://github.com/xenia-canary/game-patches/blob/main/patches/545407EE%20-%20The%20Darkness.patch.toml)<br>vsync = false<br>framerate_limit = 0  | | Base | No
 | The Orange Box | query_occlusion_fake_sample_count = -1<br>d3d12_readback_resolve = true<br>cl = "-dvd -game hl2"<br>cl = "-dvd -game episodic"<br>cl = "-dvd -game ep2"<br>cl = "-dvd -game tf"<br>cl = "-dvd -game portal" | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
