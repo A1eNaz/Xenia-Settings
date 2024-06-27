@@ -3,6 +3,16 @@
 Where do i download the latest canary from?
 - You download it from [here](https://github.com/xenia-canary/xenia-canary/releases/download/experimental/xenia_canary.zip) or this [link](https://github.com/xenia-canary/xenia-canary/releases)
 
+How do i play games on Xenia with Online Support?
+- You can get it from this [link.](https://github.com/AdrianCassar/xenia-canary/wiki)
+
+How do i use Mouse & Keyboard for Xenia?
+- From this [link](https://github.com/marinesciencedude/xenia-canary-mousehook) but only a few games have Mouse Support.
+You can make your own Keybinds with this method in the bindings.ini file:<br>
+[Media ID - Game Name]<br>
+Keybind = Controller Bind<br>
+[eg. W = LS-Up]
+
 How do i play games with 2 discs?
 - Can't be bothered to write a guide so just follow Sowa_95's video: https://youtube.com/clip/Ugkx4hDbFhE9AKnRKHwOR_1TrCWK-DnulaZd?si=sc6Ufgx4BSl1h2_C
 
@@ -12,13 +22,6 @@ Where do i obtain Game Patches from?
 Some games don't have a 60/Unlocked FPS Patch.
 - Either wait for a patch or use [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/) with this [config](https://github.com/joever2022/test/blob/main/LS%20Config.png) as an alternative for games that speedup with VSync. (costs 7 dollars tho.)
 
-How do i use Mouse & Keyboard for Xenia?
-- From this [link](https://github.com/marinesciencedude/xenia-canary-mousehook) but only a few games have Mouse Support.
-You can make your own Keybinds with this method in the bindings.ini file:<br>
-[Media ID - Game Name]<br>
-Keybind = Controller Bind<br>
-[eg. W = LS-Up]
-
 Are there achievements for Xenia?
 - Kinda but it's merely cosmetic, it will be a full feature with progress tracking in the future.
 This is how you enable it:<br>
@@ -27,9 +30,6 @@ notification_sound_path = "C:/Xenia/360 notification.wav"<br>
 custom_font_path = "C:/Xenia/Conv.ttf"<br>
 Must be with forward /, not back \.<br>
 [video](https://youtu.be/AWLHrMNl2CU) by Sowa_95 shows it in action with some games.
-
-How do i play games on Xenia with Online Support?
-- You can get it from this [link.](https://github.com/AdrianCassar/xenia-canary/wiki)
 
 Why do my XBLA games play on Trial mode?</br>
 Why do my DLCs not work?
