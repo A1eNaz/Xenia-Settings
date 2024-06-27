@@ -91,6 +91,7 @@ Why do my DLCs not work?
 | Deadpool | [FPS and Lens Flare Fix](https://raw.githubusercontent.com/A1eNaz/Xenia-Game-Settings/main/Game%20FIles/Deadpool.zip) | | Base | No
 | Dead Rising | clear_memory_page_state = true<br> render_target_path_d3d12 = "rov"<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | | Base | No
 | DeathSpank | protect_zero = false | | Base | No
+| DiRT 3 | vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Dragon Ball Raging Blast 2 | draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2 | | Base | No
 | DRIVER: San Francisco | vsync = false<br>framerate_limit = 0 | | Base | No
 | Dungeons & Dragons: Daggerdale | protect_zero = false | | Base | No
@@ -108,6 +109,7 @@ Why do my DLCs not work?
 | Forza Horizon | mount_cache = true<br>gpu_allow_invalid_fetch_constants = true<br>framerate_limit = 0 | | Base | No
 | Forza Horizon 2 | mount_cache = true<br>d3d12_readback_resolve = true<br>gpu_allow_invalid_fetch_constants = true | | Base | No
 | Forza Motorsport 2 | mount_cache = true<br>query_occlusion_fake_sample_count = -1 | | Base | No
+| Forza Motorsport 3 | mount_cache = true<br>query_occlusion_fake_sample_count = -1<br>use_new_decoder = true | | Base | No
 | Forza Motorsport 4 | [2022 Build](https://raw.githubusercontent.com/joever2022/test/main/xenia_canary.exe)<br>mount_cache = true<br>query_occlusion_fake_sample_count = -1<br>d3d12_readback_resolve = true<br>use_new_decoder = true<br>use_dedicated_xma_thread = false<br>gpu_allow_invalid_fetch_constants = true<br> | [Project Forza Plus](https://www.reddit.com/r/ProjectForzaPlus/comments/11a4qus/welcome_to_the_project_forza_plus_sub/) | Base | No
 | Freefall Racers | protect_zero = false | | Base | No
 | Frontlines: Fuel of War | protect_zero = false<br>vsync = false<br>framerate_limit = 0<br>disassemble_functions = true | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
