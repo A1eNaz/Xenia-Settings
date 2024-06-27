@@ -19,13 +19,21 @@ You can make your own Keybinds with this method in the bindings.ini file:<br>
 Keybind = Controller Bind<br>
 [eg. W = LS-Up]
 
+Are there achievements for Xenia?
+- Kinda but it's merely cosmetic, it will be a full feature with progress tracking in the future.
+This is how you enable it:<br>
+show_achievement_notification = true<br>
+notification_sound_path = "C:/Xenia/360 notification.wav"<br>
+custom_font_path = "C:/Xenia/Conv.ttf"<br>
+Must be with forward /, not back \.<br>
+[video](https://youtu.be/AWLHrMNl2CU) by Sowa_95 shows it in action with some games.
 
 How do i play games on Xenia with Online Support?
 - You can get it from this [link.](https://github.com/AdrianCassar/xenia-canary/wiki)
 
 Why do my XBLA games play on Trial mode?</br>
 Why do my DLCs not work?
-- Change license_mask = 1 in the xenia config (or license_mask = -1)
+- Change license_mask = 1 (or license_mask = -1) in the xenia config
 
 ---
 
@@ -133,7 +141,7 @@ Why do my DLCs not work?
 | GoldenEye XBLA | | [Community Edition Updater](http://n64vault.com/ge-xbla-tools:community-edition-updater)<br>[Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Grand Theft Auto IV | gpu = vulkan | | TU 8 | No
 | Grand Theft Auto: Episodes from Liberty City | gpu = vulkan | | Base | No
-| Grand Theft Auto V | d3d12_readback_resolve = true<br>protect_zero = false<br>query_occlusion_fake_sample_count = -1 (Fixes Sun Flare clipping)<br>query_occlusion_fake_sample_count = 1000 (Makes Phone Camera work) | | TU 26 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Grand Theft Auto V | d3d12_readback_resolve = true<br>protect_zero = false<br>query_occlusion_fake_sample_count = -1 (Fixes Sun Flare clipping)<br>query_occlusion_fake_sample_count = 1000 (Makes Phone Camera work) | [No Water Waves TU 26](https://drive.google.com/file/d/1-d8NAPTyP3tRXYhFJrjfyGFOIeAcfupY/view) | TU 26 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | GRID 2 | d3d12_readback_resolve = true<br>vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | GUILTY GEAR 2 | d3d12_readback_resolve = true | | Base | No
 | Gundam Operation Troy | render_target_path_d3d12 = "rov" | [English Patch](https://github.com/Eight-Mansions/MSGOT/releases) | TU 1 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
@@ -157,7 +165,7 @@ Why do my DLCs not work?
 | Max: The Curse of Brotherhood | protect_zero = false<br>break_on_unimplemented_instructions = false | | Base | No
 | Metal Gear Solid HD Collection | gpu_allow_invalid_fetch_constants = true<br>apu_max_queued_frames = 16 [MGS2]<br>cl = "MGS2.xex"<br>cl = "MGS3.xex" | | Base | No
 | Metal Gear Solid V | d3d12_readback_resolve = true<br>no_discard_stencil_in_transfer_pipelines = true<br>native_stencil_value_output_d3d12_intel = true | | Base | No
-| Midnight Club: Los Angeles | d3d12_readback_resolve = true<br>query_occlusion_fake_sample_count = -1<br>framerate_limit = 120 | | Base | No
+| Midnight Club: Los Angeles | query_occlusion_fake_sample_count = -1<br>framerate_limit = 120 | | Base | No
 | Minecraft | vsync = false<br>framerate_limit = 0<br>mount_cache = true | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | No
 | Mirror's Edge | [Shadow Shading Fix](https://github.com/xenia-canary/game-patches/blob/main/patches/45410850%20-%20Mirror's%20Edge.patch.toml) | | Base | No
 | Monkey Island: SE | internal_display_resolution = 16 | | Base | No
@@ -178,7 +186,7 @@ Why do my DLCs not work?
 | NINJA BLADE | d3d12_readback_resolve = true<br>use_fuzzy_alpha_epsilon = true | | Base | No
 | Ninja Gaiden II | protect_zero = false<br>clear_memory_page_state = true<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | [Skip Chapter 12 Crash TU 3](https://github.com/A1eNaz/Xenia-Game-Settings/blob/main/Patches/544307D5%20-%20Ninja%20Gaiden%20II%20(Japan%2C%20TU3).patch.toml) | Base | No
 | Operation Darkness | use_fuzzy_alpha_epsilon = false | | Base | No
-| Perfect Dark | [Shading Fix](https://github.com/A1eNaz/Xenia-Game-Settings/blob/main/Patches/584109C2_-_Perfect_Dark.patch.toml)<br>[Shading Fix TU3](https://github.com/A1eNaz/Xenia-Game-Settings/blob/main/Patches/584109C2_-_Perfect_Dark_TU3.patch.toml)<br>query_occlusion_fake_sample_count = -1<br>internal_display_resolution = 16 | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Perfect Dark | [Shading Fix](https://github.com/xenia-canary/game-patches/blob/main/patches/584109C2%20-%20Perfect%20Dark.patch.toml)<br>[Shading Fix TU3](https://github.com/xenia-canary/game-patches/blob/main/patches/584109C2%20-%20Perfect%20Dark%20(TU3).patch.toml)<br>query_occlusion_fake_sample_count = -1<br>internal_display_resolution = 16 | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | PAYDAY 2 | vsync = false<br>framerate_limit = 0 | | TU 1 | No
 | Panzer General: Allied Assault | d3d12_readback_resolve = true<br>clear_memory_page_state = true | | Base | No
 | Pid | break_on_unimplemented_instructions = false<br>protect_zero = false | | Base | No
