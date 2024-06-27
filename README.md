@@ -39,7 +39,7 @@ Why do my DLCs not work?
 
 ## Games List
 
-## press CTRL+F then search for your game.
+## CTRL+F then search.
 
 | Game | Settings | Plugins | Recommended TUs | Netplay Compatibility
 |---|---|---|---|---|
@@ -155,6 +155,7 @@ Why do my DLCs not work?
 | Kane & Lynch 2: Dog Days | d3d12_readback_resolve = true | | TU 1 | No
 | Left 4 Dead | d3d12_readback_resolve = true<br>cl = "-dvd -novid"<br>query_occlusion_fake_sample_count = -1<br>break_on_unimplemented_instructions = false | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Left 4 Dead 2 | d3d12_readback_resolve = true<br>cl = "mat_motion_blur_percent_of_screen_max 0"<br>break_on_unimplemented_instructions = false | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook)<br>[Unlock FPS](https://raw.githubusercontent.com/A1eNaz/Xenia-Game-Settings/main/Game%20FIles/L4D2%20Unlock%20FPS.zip) | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Lost Odyssey | vsync = false<br>framerate_limit = 0<br>draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2<br>apu_max_queued_frames = 16<br>render_target_path_d3d12 = "rov" | | Base | No
 | Madagascar: Escape 2 Africa | d3d12_readback_resolve = true | | Base | No
 | Madden NFL 11 | mount_cache = true<br>vsync = false<br>framerate_limit = 0 | | Base | No
 | Madden NFL 13 | mount_cache = true | | Base | No
