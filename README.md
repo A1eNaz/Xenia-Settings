@@ -28,7 +28,7 @@ This is how you enable it:<br>
 show_achievement_notification = true<br>
 notification_sound_path = "C:/Xenia/360 notification.wav"<br>
 custom_font_path = "C:/Xenia/Conv.ttf"<br>
-Must be with forward /, not back \.<br>
+Must be with forward /<br>
 [video](https://youtu.be/AWLHrMNl2CU) by Sowa_95 shows it in action with some games.
 
 Why do my XBLA games play on Trial mode?</br>
@@ -72,7 +72,7 @@ Why do my DLCs not work?
 | Blackwater | protect_zero = false<br>vsync = false<br>framerate_limit = 0 | | Base | No
 | Blazing Angels 2 | protect_zero = false | | Base | No
 | Bloody Good Time | d3d12_readback_resolve = true<br>break_on_unimplemented_instructions = false | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
-| Blue Dragon | clear_memory_page_state = true | | Base | No
+| Blue Dragon | clear_memory_page_state = true<br>apu_max_queued_frames = 16 | | Base | No
 | Blur | d3d12_readback_resolve = true | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Bodycount | query_occlusion_fake_sample_count = -1 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Borderlands | vsync = false<br>framerate_limit = 0<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
