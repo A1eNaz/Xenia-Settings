@@ -267,7 +267,7 @@ Why do my DLCs not work?
 | UFC Undisputed 3 | gpu_allow_invalid_fetch_constants = true<br>d3d12_readback_resolve = true | | Base | No
 | Ultra Street Fighter IV | vsync = false<br>framerate_limit = 0 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Virtua Tennis 3 | internal_display_resolution = 16 | | Base | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
-| Viva Piñata: Trouble in Paradise | d3d12_readback_resolve = true (Terrible FPS but Fixes Ingame Screenshots)<br>scribble_heap = true | | Base | No
+| Viva Piñata: Trouble in Paradise | scribble_heap = true | | Base | No
 | Way of the Dogg | protect_zero = false<br>break_on_unimplemented_instructions = false | | Base | No
 | WRC 2 | d3d12_readback_resolve = true | | Base | No
 | WRC 3: FIA World Rally Championship | d3d12_readback_resolve = true<br>vsync = false<br>framerate_limit = 0 | | Base | No
