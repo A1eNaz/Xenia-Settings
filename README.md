@@ -68,6 +68,7 @@ Why do my DLCs not work?
 | Beautiful Katamari | protect_zero = false<br>scribble_heap = true<br>writable_executable_memory = true | No
 | Beyond Good & Evil HD | d3d12_readback_resolve = true<br>query_occlusion_fake_sample_count = -1 | No
 | BioShock 2 | vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| BioShock Infinite | vsync = false<br>framerate_limit = 0<br>query_occlusion_fake_sample_count = -1 | No
 | Birds of Steel | d3d12_readback_resolve = true<br>vsync = false<br>framerate_limit = 0 | No
 | Blackwater | protect_zero = false<br>vsync = false<br>framerate_limit = 0 | No
 | Blazing Angels 2 | protect_zero = false | No
@@ -77,6 +78,7 @@ Why do my DLCs not work?
 | Bodycount | query_occlusion_fake_sample_count = -1 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Borderlands | vsync = false<br>framerate_limit = 0<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Borderlands 2 | vsync = false<br>framerate_limit = 0<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Borderlands: The Pre-Sequel | vsync = false<br>framerate_limit = 0<br>use_dedicated_xma_thread = false<br>use_new_decoder = true<br>clear_memory_page_state = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Brothers in Arms: Hell's Highway | render_target_path_d3d12 = "rov" | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Bulletstorm | render_target_path_d3d12 = "rov" | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Call of Duty: Advanced Warfare | Use TU 17<br>d3d12_readback_resolve = true<br>protect_zero = false<br>controller_hotkeys = true<br>(Turn off RR with A + Guide Button) | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
@@ -84,6 +86,7 @@ Why do my DLCs not work?
 | Call of Duty: Modern Warfare | Use TU 4<br>cl = "r_vsync 0" | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Call of Duty: Modern Warfare 2 | cl = "+r_vsync 0 +com_maxfps 0" | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Call of Duty: Modern Warfare 3 | [System Link](https://raw.githubusercontent.com/A1eNaz/Xenia-Game-Settings/main/Game%20FIles/MW3SystemLink.zip)<br>cl = "r_vsync 0"<br><br>Netplay Config:<br>allow_plugins = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Call of Juarez: Bound in Blood | vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Castlevania: Harmony of Despair | internal_display_resolution = 16 | No
 | Condemned | [Unlocked FPS + Extended FOV](https://raw.githubusercontent.com/A1eNaz/Xenia-Game-Settings/main/Game%20FIles/Condemned%20FPS%20%2B%20FOV.zip)<br>use_dedicated_xma_thread = false<br>use_new_decoder = true<br> | No
 | Conflict: Denied Ops | d3d12_readback_resolve = true | No
@@ -97,6 +100,7 @@ Why do my DLCs not work?
 | Dark Souls | d3d12_readback_resolve = true<br>use_dedicated_xma_thread = false<br>use_new_decoder = true<br>query_occlusion_fake_sample_count = -1 | No
 | Dark Souls 2 | d3d12_readback_resolve = true<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | No
 | DAYTONA USA | internal_display_resolution = 16 | No
+| Dead Island | vsync = false<br>framerate_limit = 0 | No
 | Dead or Alive 4 | apu_max_queued_frames = 16<br>use_new_decoder = true<br>use_dedicated_xma_thread = false<br>clear_memory_page_state = true<br>gpu_allow_invalid_fetch_constants = true<br>draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2<br><br>Netplay Config:<br>protect_zero = false<br>vsync = false<br>framerate_limit = 120 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Deadpool | [FPS and Lens Flare Fix](https://raw.githubusercontent.com/A1eNaz/Xenia-Game-Settings/main/Game%20FIles/Deadpool.zip) | No
 | Dead Rising | clear_memory_page_state = true<br> render_target_path_d3d12 = "rov"<br>use_dedicated_xma_thread = false<br>use_new_decoder = true  | No
@@ -104,17 +108,24 @@ Why do my DLCs not work?
 | DiRT | vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | DiRT 3 | vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | DiRT Showdown | vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Dragon Age: Origins | vsync = false<br>framerate_limit = 0 | No
+| Dragon Age 2 | vsync = false<br>framerate_limit = 0 | No
 | Dragon Ball Raging Blast 2 | draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2 | No
+| Dragon Ball Z Burst Limit | Internal_display_resolution = 16<br>draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | DRIVER: San Francisco | vsync = false<br>framerate_limit = 0 | No
 | Dungeons & Dragons: Daggerdale | protect_zero = false | No
+| Dynasty Warriors: Gundam 2 | clear_memory_page_state = true | No
+| Dynasty Warriors: Gundam 3 | clear_memory_page_state = true | No
 | ESCHATOS | render_target_path_d3d12 = "rov" | No
 | F1 2010 | vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | F1 2011 | vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | F1 2013 | vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Fable 2 | clear_memory_page_state = true | No
 | Fable Heroes | d3d12_readback_resolve = true | No
+| Far Cry 2 | vsync = false<br>framerate_limit = 0<br>scribble_heap = true<br>clear_memory_page_state = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Far Cry 3 | scribble_heap = true<br>vsync = false<br>framerate_limit = 0 | No
 | Far Cry 3 Blood Dragon | scribble_heap = true<br>vsync = false<br>framerate_limit = 0<br>query_occlusion_fake_sample_count = -1 | No
+| Far Cry Classic | gpu_allow_invalid_fetch_constants = true
 | FIFA 14 | d3d12_readback_resolve = true<br>clear_memory_page_state = true | No
 | FIFA 15 | d3d12_readback_resolve = true<br>clear_memory_page_state = true<br>disassemble_functions = true | No
 | FIFA 17 | clear_memory_page_state = true<br>vsync = false<br>framerate_limit = 0 | No
@@ -141,9 +152,9 @@ Why do my DLCs not work?
 | Ghost Recon: Future Soldier | vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | GoldenEye: 007 Reloaded | query_occlusion_fake_sample_count = -1 | No
 | GoldenEye XBLA | [Community Edition Updater](http://n64vault.com/ge-xbla-tools:community-edition-updater)<br>[Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
-| Grand Theft Auto IV | Use TU 8<br>gpu = vulkan | No
-| Grand Theft Auto: Episodes from Liberty City | gpu = vulkan | No
+| Grand Theft Auto IV | Use TU 8<br>gpu = vulkan<br>apu_max_queued_frames = 16 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Grand Theft Auto V | Use TU 26<br>[No Water Waves TU 26](https://drive.google.com/file/d/1-d8NAPTyP3tRXYhFJrjfyGFOIeAcfupY/view)<br>d3d12_readback_resolve = true<br>protect_zero = false<br>query_occlusion_fake_sample_count = -1 (Fixes Sun Flare clipping)<br>query_occlusion_fake_sample_count = 1000 (Makes Phone Camera work) | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Grand Theft Auto: San Andreas | you probably get a better time playing the Definitive Edition instead | No
 | GRID 2 | d3d12_readback_resolve = true<br>vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | GUILTY GEAR 2 | d3d12_readback_resolve = true | No
 | Gundam Operation Troy | Use TU 1<br>[English Patch](https://github.com/Eight-Mansions/MSGOT/releases)<br>render_target_path_d3d12 = "rov" | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
@@ -153,6 +164,7 @@ Why do my DLCs not work?
 | Halo Reach | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook)<br>query_occlusion_fake_sample_count = -1 | No
 | Hitman: Absolution | protect_zero = false<br>d3d12_readback_resolve = true | No
 | Hydro Thunder Hurricane | d3d12_readback_resolve = true | No
+| Just Cause | vsync = false<br>framerate_limit = 0 | No
 | Kameo: Elements of Power | Use TU 2<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Kane & Lynch 2: Dog Days | Use TU 1 <br>d3d12_readback_resolve = true | No
 | Left 4 Dead | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook)<br>d3d12_readback_resolve = true<br>cl = "-dvd"<br>query_occlusion_fake_sample_count = -1<br>break_on_unimplemented_instructions = false | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
@@ -165,11 +177,12 @@ Why do my DLCs not work?
 | Madden NFL 25 | d3d12_readback_resolve = true<br>mount_cache = true | No
 | Mafia II | protect_zero = false<br>query_occlusion_fake_sample_count = -1 | No
 | Marvel Ultimate Alliance | protect_zero = false<br>query_occlusion_fake_sample_count = -1<br>vsync = false<br>framerate_limit = 0<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
-| Mass Effect 1 | internal_display_resolution: 2-5<br>use_new_decoder = true | No
+| Mass Effect 1 | internal_display_resolution: 2-5<br>use_new_decoder = true<br>break_on_debugbreak = true | No
+| Mass Effect 3 | gpu_allow_invalid_fetch_constants = true | No
 | Max: The Curse of Brotherhood | protect_zero = false<br>break_on_unimplemented_instructions = false | No
 | Metal Gear Solid HD Collection | gpu_allow_invalid_fetch_constants = true<br>apu_max_queued_frames = 16 [MGS2]<br>cl = "MGS2.xex"<br>cl = "MGS3.xex" | No
 | Metal Gear Solid V | d3d12_readback_resolve = true<br>no_discard_stencil_in_transfer_pipelines = true<br>native_stencil_value_output_d3d12_intel = true | No
-| Midnight Club: Los Angeles | query_occlusion_fake_sample_count = -1<br>framerate_limit = 120 | No
+| Midnight Club: Los Angeles | query_occlusion_fake_sample_count = -1<br>framerate_limit = 120 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Minecraft | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook)<br>vsync = false<br>framerate_limit = 0<br>mount_cache = true | No
 | Mirror's Edge | [Shadow Shading Fix](https://github.com/xenia-canary/game-patches/blob/main/patches/45410850%20-%20Mirror's%20Edge.patch.toml) | No
 | Monkey Island: SE | internal_display_resolution = 16 | No
@@ -184,7 +197,7 @@ Why do my DLCs not work?
 | Need for Speed: Carbon | use_dedicated_xma_thread = false<br>use_new_decoder = true<br>vsync = false<br>framerate_limit = 0 | No
 | Need for Speed: Most Wanted 2005 | use_dedicated_xma_thread = false<br>use_new_decoder = true | No
 | Need for Speed: Most Wanted 2012 | d3d12_readback_memexport = true | No
-| Need for Speed: Pro Street | use_dedicated_xma_thread = false<br>use_new_decoder = true | No
+| Need for Speed: Pro Street | | No
 | NHL 11 | protect_zero = false<br>disassemble_functions = true | No
 | NieR | d3d12_readback_resolve = true<br>vsync = false<br>framerate_limit = 0 | No
 | Nier Gestalt | d3d12_readback_resolve = true<br>vsync = false<br>framerate_limit = 0 | No
@@ -216,8 +229,8 @@ Why do my DLCs not work?
 | Rayman Legends | internal_display_resolution = 16 | No
 | Rayman Origins | internal_display_resolution = 16 | No
 | Red Dead Redemption | [Reality Redemption](https://gtaforums.com/topic/989469-rel-wip-rdr-reality-redemption-overhaul-project/)<br>[Unlock Social Club Content](https://github.com/joever2022/Xenia-Game-Settings/blob/main/RDR1%20Social%20Club.png)<br>vsync = false<br>framerate_limit = 0<br>query_occlusion_fake_sample_count = -1 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
-| Red Faction: Armageddon | d3d12_readback_resolve = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
-| Red Faction: Guerrilla | vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Red Faction: Armageddon | vsync = false<br>framerate_limit = 0<br>d3d12_readback_resolve = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Red Faction: Guerrilla | vsync = false<br>framerate_limit = 0<br>query_occlusion_fake_sample_count = -1 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Red Johnson | d3d12_readback_resolve = true<br>vsync = false<br>framerate_limit = 0 | No
 | Resident Evil: Operation Raccoon City | d3d12_readback_resolve = true<br>query_occlusion_fake_sample_count = -1<br>vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Ridge Racer Unbounded | query_occlusion_fake_sample_count = -1<br>vsync = false<br>framerate_limit = 0 | No
@@ -234,6 +247,8 @@ Why do my DLCs not work?
 | SEGA Superstar Tennis | use_dedicated_xma_thread = false<br>use_new_decoder = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Serious Sam HD: The First Encounter | d3d12_readback_resolve = true | No
 | Silent Hill Downpour | render_target_path_d3d12 = "rov" | No
+| skate. | vsync = false<br>framerate_limit = 0 | No
+| Skate 2 | vsync = false<br>framerate_limit = 0 | No
 | Skate 3 | vsync = false<br>framerate_limit = 0 | No
 | Slender: The Arrival | protect_zero = false<br>break_on_unimplemented_instructions = false<br>vsync = false<br>framerate_limit = 0 | No
 | Snoopy Flying Ace | render_target_path_d3d12 = "rov"<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
@@ -259,21 +274,27 @@ Why do my DLCs not work?
 | Test Drive Unlimited | vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | The Club | protect_zero = false<br>vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | The Darkness | query_occlusion_fake_sample_count = -1<br>[Bloom Fix](https://github.com/xenia-canary/game-patches/blob/main/patches/545407EE%20-%20The%20Darkness.patch.toml)<br>vsync = false<br>framerate_limit = 0 | No
+| The Last Remnant | vsync = false<br>framerate_limit = 0 | No
 | The Orange Box | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook)<br>query_occlusion_fake_sample_count = -1<br>d3d12_readback_resolve = true<br>cl = "-dvd -game hl2"<br>cl = "-dvd -game episodic"<br>cl = "-dvd -game ep2"<br>cl = "-dvd -game tf"<br>cl = "-dvd -game portal" | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | The Peanuts Movie: Snoopy's Grand Adventure | protect_zero = false<br>break_on_unimplemented_instructions = true | No
-| The Witcher 2: Assassins of Kings | vsync = false<br>framerate_limit = 0 | No	
+| The Walking Dead: Survival Instinct | render_target_path_d3d12 = "rov" | No
+| The Witcher 2: Assassins of Kings | vsync = false<br>framerate_limit = 0 | No
+| Thief | render_target_path_d3d12 = "rov"
 | Tiger Woods PGA Tour 08 | d3d12_readback_resolve = true<br>vsync = false<br>framerate_limit = 0 | No
 | Tiger Woods PGA Tour 09 | d3d12_readback_resolve = true<br>vsync = false<br>framerate_limit = 0 | No
 | Titanfall | don't play this<br>query_occlusion_fake_sample_count = -1<br>d3d12_readback_resolve = true | No
+| Tomb Raider | vsync = false<br>framerate_limit = 0 | No
 | Tomb Raider Underworld | protect_zero = false<br>render_target_path_d3d12 = "rov" | No
+| Tony Hawk's PS HD | vsync = false<br>framerate_limit = 0 | No
 | Top Spin 2 | d3d12_readback_resolve = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Trials HD | d3d12_readback_resolve = true | No
 | UFC Undisputed 3 | gpu_allow_invalid_fetch_constants = true<br>d3d12_readback_resolve = true | No
-| Ultra Street Fighter IV | vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Ultra Street Fighter IV | | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Virtua Fighters 5 | apu_max_queued_frames = 16<br>use_new_decoder = true<br>use_dedicated_xma_thread = false | No
 | Virtua Tennis 3 | internal_display_resolution = 16 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Viva Piñata: Trouble in Paradise | scribble_heap = true | No
 | Way of the Dogg | protect_zero = false<br>break_on_unimplemented_instructions = false | No
+| Wheelman | use_dedicated_xma_thread = false<br>use_new_decoder = true | No
 | WRC 2 | d3d12_readback_resolve = true | No
 | WRC 3: FIA World Rally Championship | d3d12_readback_resolve = true<br>vsync = false<br>framerate_limit = 0 | No
 | WRC 4: FIA World Rally Championship | d3d12_readback_resolve = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
