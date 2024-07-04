@@ -4,7 +4,7 @@ Where do i download the latest canary from?
 - You download it from [here](https://github.com/xenia-canary/xenia-canary/releases/download/experimental/xenia_canary.zip) or this [link](https://github.com/xenia-canary/xenia-canary/releases)
 
 How do i play games on Xenia with Online Support?
-- You can get it from this [link.](https://github.com/AdrianCassar/xenia-canary/wiki)
+- You can get it from this [link.](https://github.com/AdrianCassar/xenia-canary/wiki)<br>[Video Guide](https://youtu.be/NnjGLTQig3U)here.<br>[Server Guide](https://youtu.be/_PgF_g6alNc)here.
 
 How do i use Mouse & Keyboard for Xenia?
 - From this [link](https://github.com/marinesciencedude/xenia-canary-mousehook) but only a few games have Mouse Support.
