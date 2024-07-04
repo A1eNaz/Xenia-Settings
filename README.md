@@ -4,7 +4,7 @@ Where do i download the latest canary from?
 - You download it from [here](https://github.com/xenia-canary/xenia-canary/releases/download/experimental/xenia_canary.zip) or this [link](https://github.com/xenia-canary/xenia-canary/releases)
 
 How do i play games on Xenia with Online Support?
-- You can get it from this [link.](https://github.com/AdrianCassar/xenia-canary/wiki)<br>[Video Guide](https://youtu.be/NnjGLTQig3U)here.<br>[Server Guide](https://youtu.be/_PgF_g6alNc)here.
+- You can get it from this [link.](https://github.com/AdrianCassar/xenia-canary/wiki)<br>[Video Guide](https://youtu.be/NnjGLTQig3U) here.<br>[Server Guide](https://youtu.be/_PgF_g6alNc) here.
 
 How do i use Mouse & Keyboard for Xenia?
 - From this [link](https://github.com/marinesciencedude/xenia-canary-mousehook) but only a few games have Mouse Support.
@@ -29,7 +29,7 @@ show_achievement_notification = true<br>
 notification_sound_path = "C:/Xenia/360 notification.wav"<br>
 custom_font_path = "C:/Xenia/Conv.ttf"<br>
 Must be with forward /<br>
-[video](https://youtu.be/AWLHrMNl2CU) by Sowa_95 shows it in action with some games.
+[video](https://youtu.be/AWLHrMNl2CU) by Sowa_95 showcases it with some games.
 
 Why do my XBLA games play on Trial mode?</br>
 Why do my DLCs not work?
