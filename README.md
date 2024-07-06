@@ -62,6 +62,7 @@ Why do my DLCs not work?
 | Assassin's Creed 4: Black Flag | just play assassins creed on pc instead<br>launch_module = "scimitar_final.xex"<br>query_occlusion_fake_sample_count = -1<br>vsync = false<br>framerate_limit = 120 | No
 | Assassin's Creed Rogue | just play assassins creed on pc instead<br>launch_module = "scimitar_final.xex" | No
 | Aurora Dashboard | allow_game_relative_writes = true</br>protect_zero = false</br>gpu_allow_invalid_fetch_constants = true | No
+| Bakugan Battle Brawlers | use_fuzzy_alpha_epsilon = true | No
 | Banjo-Kazooie | internal_display_resolution = 16 | No
 | Banjo Kazooie: Nuts & Bolts | vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Banjo-Tooie | internal_display_resolution = 16 | No
