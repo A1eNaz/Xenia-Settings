@@ -11,7 +11,7 @@ How do i use Mouse & Keyboard for Xenia?
 You can make your own Keybinds with this method in the bindings.ini file:<br>
 [Media ID - Game Name]<br>
 Keybind = Controller Bind<br>
-[eg. W = LS-Up]
+[eg. W = LS-Up]most
 
 How do i play games with 2 discs?
 - Can't be bothered to write a guide so just follow Sowa_95's video: https://youtube.com/clip/Ugkx4hDbFhE9AKnRKHwOR_1TrCWK-DnulaZd?si=sc6Ufgx4BSl1h2_C
@@ -58,8 +58,8 @@ Why do my DLCs not work?
 | Armored Core: Verdict Day | protect_zero = false<br>d3d12_readback_resolve = true<br>vsync = false<br>framerate_limit = 0 | No
 | Army of Two | internal_display_resolution = 4<br>scribble_heap = true<br>query_occlusion_fake_sample_count = -1 | No
 | Army of Two: The 40th Day | vsync = false<br>framerate_limit = 0 | No
-| Assassin's Creed 3 | just play assassins creed on pc instead<br>launch_module = "scimitar_final.xex"<br>query_occlusion_fake_sample_count = -1<br>vsync = false<br>framerate_limit = 120 | No
-| Assassin's Creed 4: Black Flag | just play assassins creed on pc instead<br>launch_module = "scimitar_final.xex"<br>query_occlusion_fake_sample_count = -1<br>vsync = false<br>framerate_limit = 120 | No
+| Assassin's Creed 3 | just play assassins creed on pc instead<br>launch_module = "scimitar_final.xex"<br>query_occlusion_fake_sample_count = -1<br>framerate_limit = 120 | No
+| Assassin's Creed 4: Black Flag | just play assassins creed on pc instead<br>launch_module = "scimitar_final.xex"<br>query_occlusion_fake_sample_count = -1<br>framerate_limit = 120 | No
 | Assassin's Creed Rogue | just play assassins creed on pc instead<br>launch_module = "scimitar_final.xex" | No
 | Aurora Dashboard | allow_game_relative_writes = true</br>protect_zero = false</br>gpu_allow_invalid_fetch_constants = true | No
 | Bakugan Battle Brawlers | use_fuzzy_alpha_epsilon = true | No
@@ -74,7 +74,7 @@ Why do my DLCs not work?
 | Beyond Good & Evil HD | d3d12_readback_resolve = true<br>query_occlusion_fake_sample_count = 0<br>draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2 | No
 | BioShock 2 | vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | BioShock Infinite | vsync = false<br>framerate_limit = 0<br>query_occlusion_fake_sample_count = -1 | No
-| Birds of Steel | d3d12_readback_resolve = true<br>vsync = false<br>framerate_limit = 120 | No
+| Birds of Steel | d3d12_readback_resolve = true<br>framerate_limit = 120 | No
 | Blackwater | protect_zero = false<br>vsync = false<br>framerate_limit = 0 | No
 | Blazing Angels 2 | protect_zero = false | No
 | Bloody Good Time | d3d12_readback_resolve = true<br>break_on_unimplemented_instructions = false | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
@@ -112,7 +112,7 @@ Why do my DLCs not work?
 | Dark Souls 2 | d3d12_readback_resolve = true<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | No
 | DAYTONA USA | internal_display_resolution = 16 | No
 | Dead Island | vsync = false<br>framerate_limit = 0 | No
-| Dead or Alive 4 | apu_max_queued_frames = 16<br>use_new_decoder = true<br>use_dedicated_xma_thread = false<br>clear_memory_page_state = true<br>gpu_allow_invalid_fetch_constants = true<br>draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2<br><br>Netplay Config:<br>protect_zero = false<br>vsync = false<br>framerate_limit = 120 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Dead or Alive 4 | apu_max_queued_frames = 16<br>use_new_decoder = true<br>use_dedicated_xma_thread = false<br>clear_memory_page_state = true<br>gpu_allow_invalid_fetch_constants = true<br>draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2<br><br>Netplay Config:<br>protect_zero = false<br>framerate_limit = 120 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Deadpool | [FPS and Lens Flare Fix](https://raw.githubusercontent.com/A1eNaz/Xenia-Game-Settings/main/Game%20FIles/Deadpool.zip) | No
 | Dead Rising | clear_memory_page_state = true<br> render_target_path_d3d12 = "rov"<br>use_dedicated_xma_thread = false<br>use_new_decoder = true  | No
 | Dead Rising 2 | vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
@@ -181,7 +181,7 @@ Why do my DLCs not work?
 | UNO RUSH | vsync = false<br>framerate_limit = 0<br>draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Hitman: Absolution | protect_zero = false<br>d3d12_readback_resolve = true | No
 | Hydro Thunder Hurricane | d3d12_readback_resolve = true | No
-| Iron Brigade | [Black Shading Fix](https://github.com/xenia-project/game-compatibility/issues/1238#issuecomment-1870233542)vsync = false<br>framerate_limit = 120<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Iron Brigade | [Black Shading Fix](https://github.com/xenia-project/game-compatibility/issues/1238#issuecomment-1870233542)<br>framerate_limit = 120<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | James Cameron’s Avatar | clear_memory_page_state = true | No
 | Jetpac Refuelled | draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Just Cause | vsync = false<br>framerate_limit = 0 | No
@@ -206,7 +206,7 @@ Why do my DLCs not work?
 | Max: The Curse of Brotherhood | protect_zero = false<br>break_on_unimplemented_instructions = false | No
 | Metal Gear Solid HD Collection | gpu_allow_invalid_fetch_constants = true<br>apu_max_queued_frames = 16 [MGS2]<br>launch_module = "MGS2.xex"<br>launch_module = "MGS3.xex" | No
 | Metal Gear Solid V | d3d12_readback_resolve = true<br>no_discard_stencil_in_transfer_pipelines = true<br>native_stencil_value_output_d3d12_intel = true | No
-| Midnight Club: Los Angeles | query_occlusion_fake_sample_count = -1<br>framerate_limit = 120 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Midnight Club: Los Angeles | query_occlusion_fake_sample_count = -1 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Minecraft | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook)<br>vsync = false<br>framerate_limit = 0<br>mount_cache = true | No
 | Mirror's Edge | [Shadow Shading Fix](https://github.com/xenia-canary/game-patches/blob/main/patches/45410850%20-%20Mirror's%20Edge.patch.toml) | No
 | Monkey Island: SE | internal_display_resolution = 16 | No
@@ -220,7 +220,7 @@ Why do my DLCs not work?
 | NASCAR The Game 2011 | d3d12_readback_resolve = true<br>gpu_allow_invalid_fetch_constants = true<br>controller_hotkeys = true<br>(Press Right Shoulder + Guide Button every Race) | No
 | NBA Street Homecourt | internal_display_resolution = 16 | No
 | Need for Speed: Carbon | use_dedicated_xma_thread = false<br>use_new_decoder = true<br>vsync = false<br>framerate_limit = 0 | No
-| Need for Speed: Most Wanted 2005 | use_dedicated_xma_thread = false<br>use_new_decoder = true | No
+| Need for Speed: Most Wanted 2005 | use_dedicated_xma_thread = false<br>use_new_decoder = true<br>scribble_heap = true<br>framerate_limit = 120 | No
 | Need for Speed: Most Wanted 2012 | d3d12_readback_memexport = true | No
 | Need for Speed: Pro Street | | No
 | NeverDead | render_target_path_d3d12 = "rov" | No
@@ -270,8 +270,8 @@ Why do my DLCs not work?
 | Saints Row the Third | Use TU 4<br>d3d12_readback_resolve = true<br>render_target_path_d3d12 = "rov"<br>protect_zero = false<br>vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Saints Row IV | Use TU 7<br>d3d12_readback_resolve = true<br>render_target_path_d3d12 = "rov"<br>protect_zero = false<br>vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Saints Row: Gat out of Hell | d3d12_readback_resolve = true<br>render_target_path_d3d12 = "rov"<br>protect_zero = false<br>vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
-| Saw | vsync = false<br>framerate_limit = 120 | No
-| Saw II | vsync = false<br>framerate_limit = 120 | No
+| Saw | framerate_limit = 120 | No
+| Saw II | framerate_limit = 120 | No
 | Scott Pilgrim vs. the World: The Game | Use TU 4<br>internal_display_resolution = 16 | No
 | ScreamRide | d3d12_readback_resolve = true | No
 | Sealife Safari | d3d12_readback_resolve = true | No
@@ -287,6 +287,7 @@ Why do my DLCs not work?
 | Snoopy Flying Ace | render_target_path_d3d12 = "rov"<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Sonic & All-Stars Racing Transformed | vsync = false<br>framerate_limit = 0<br>render_target_path_d3d12 = "rov" | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Sonic & SEGA All-Stars Racing | vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Sonic Adventure 2 | clear_memory_page_state = true | No
 | Sonic Free Riders | [No Kinect](https://gamebanana.com/mods/456720)<br>gpu_allow_invalid_fetch_constants = true<br>protect_zero = false | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Sonic the Hedgehog 4: Episode I | internal_display_resolution = 16 | No
 | Sonic Unleashed | Use TU 2<br>[Setup Guide](https://gamebanana.com/tuts/17062) | No
@@ -300,7 +301,7 @@ Why do my DLCs not work?
 | State of Decay | protect_zero = false | No
 | Super Street Fighter 2 THD | internal_display_resolution = 16 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Supremacy MMA | protect_zero = false<br>vsync = false<br>framerate_limit = 0 | No
-| TEKKEN 6 | Use TU 3<br>clear_memory_page_state = true<br>draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2<br><br>Netplay Config:<br>vsync = false<br>framerate_limit = 120 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| TEKKEN 6 | Use TU 3<br>clear_memory_page_state = true<br>draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2<br><br>Netplay Config:<br>framerate_limit = 120 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | TEKKEN Tag Tournament 2 | protect_zero = false<br>draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2 | No
 | Teenage Mutant Ninja Turtles | protect_zero = false | No
 | Tenchu Z | protect_zero = false<br>scribble_heap = true<br>clear_memory_page_state = true<br>use_fuzzy_alpha_epsilon = true | No
@@ -329,7 +330,7 @@ Why do my DLCs not work?
 | Virtua Tennis 3 | internal_display_resolution = 16 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Viva Piñata: Trouble in Paradise | scribble_heap = true | No
 | Way of the Dogg | protect_zero = false<br>break_on_unimplemented_instructions = false | No
-| WET | vsync = false<br>framerate_limit = 120 | No
+| WET | framerate_limit = 120 | No
 | Wheelman | use_dedicated_xma_thread = false<br>use_new_decoder = true | No
 | Worms 2: Armageddon | apu_max_queued_frames = 16 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | WRC 2 | d3d12_readback_resolve = true | No
