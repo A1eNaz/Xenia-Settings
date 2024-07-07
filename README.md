@@ -258,7 +258,7 @@ Why do my DLCs not work?
 | Rainbow Six: Vegas 2 | vsync = false<br>framerate_limit = 0<br>clear_memory_page_state = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Rayman Legends | internal_display_resolution = 16 | No
 | Rayman Origins | internal_display_resolution = 16 | No
-| Red Dead Redemption | [Reality Redemption](https://gtaforums.com/topic/989469-rel-wip-rdr-reality-redemption-overhaul-project/)<br>[Unlock Social Club Content](https://github.com/joever2022/Xenia-Game-Settings/blob/main/RDR1%20Social%20Club.png)<br>vsync = false<br>framerate_limit = 0<br>query_occlusion_fake_sample_count = -1 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Red Dead Redemption | [Mouse & Keyboard, check my comment (GOTY Only)](https://www.youtube.com/watch?v=2t1xC4YXGRQ)<br>[Reality Redemption](https://gtaforums.com/topic/989469-rel-wip-rdr-reality-redemption-overhaul-project/)<br>[Unlock Social Club Content](https://github.com/joever2022/Xenia-Game-Settings/blob/main/RDR1%20Social%20Club.png)<br>vsync = false<br>framerate_limit = 0<br>query_occlusion_fake_sample_count = -1 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Red Faction: Armageddon | vsync = false<br>framerate_limit = 0<br>d3d12_readback_resolve = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Red Faction: Guerrilla | vsync = false<br>framerate_limit = 0<br>query_occlusion_fake_sample_count = -1 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Red Johnson | d3d12_readback_resolve = true<br>vsync = false<br>framerate_limit = 0 | No
