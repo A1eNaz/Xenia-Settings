@@ -301,7 +301,7 @@ Why do my DLCs not work?
 | State of Decay | protect_zero = false | No
 | Super Street Fighter 2 THD | internal_display_resolution = 16 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Supremacy MMA | protect_zero = false<br>vsync = false<br>framerate_limit = 0 | No
-| TEKKEN 6 | Use TU 3<br>clear_memory_page_state = true<br>draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2<br><br>Netplay Config:<br>framerate_limit = 120 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| TEKKEN 6 | Use TU 3<br>clear_memory_page_state = true<br>draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2<br><br>Netplay Config:<br>framerate_limit = 120<br>[ONLY WHEN THE GAME IS IN SLOW MOTION] | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | TEKKEN Tag Tournament 2 | protect_zero = false<br>draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2 | No
 | Teenage Mutant Ninja Turtles | protect_zero = false | No
 | Tenchu Z | protect_zero = false<br>scribble_heap = true<br>clear_memory_page_state = true<br>use_fuzzy_alpha_epsilon = true | No
@@ -323,7 +323,7 @@ Why do my DLCs not work?
 | Top Spin 2 | d3d12_readback_resolve = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Trials HD | d3d12_readback_resolve = true | No
 | UFC Undisputed 3 | gpu_allow_invalid_fetch_constants = true<br>d3d12_readback_resolve = true | No
-| Ultra Street Fighter IV | | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Ultra Street Fighter IV | draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | UNO RUSH | vsync = false<br>framerate_limit = 0<br>draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2 | No
 | Vampire Rain | draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2 | No
 | Virtua Fighters 5 | apu_max_queued_frames = 16<br>use_new_decoder = true<br>use_dedicated_xma_thread = false | No
@@ -340,5 +340,5 @@ Why do my DLCs not work?
 | Zeno Clash UE | break_on_unimplemented_instructions = false<br>scribble_heap = true<br>d3d12_readback_resolve = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Zoids Infinity EX Neo | protect_zero = false<br>clear_memory_page_state = true<br>vsync = false<br>framerate_limit = 0 | No
 | Zombie Apocalypse: NDA | clear_memory_page_state = true<br>vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
-| Zone of the Enders HD | Copy ZoE1_ProjectFinal.xex to ZoE1's Folder and Play it There<br>Copy ZoE2_ProjectFinal.xex to ZoE2's Folder and Play it There<br>clear_memory_page_state = true<br>draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2 | No
+| Zone of the Enders HD | Copy ZoE1_ProjectFinal.xex to ZoE1's Folder and play it there<br>Copy ZoE2_ProjectFinal.xex to ZoE2's Folder and play it there<br>clear_memory_page_state = true<br>draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2 | No
 | Zoo Tycoon | d3d12_readback_resolve = true | No
