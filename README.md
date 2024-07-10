@@ -90,7 +90,7 @@ Why do my DLCs not work?
 | Call of Duty: Advanced Warfare | Use TU 17<br>d3d12_readback_resolve = true<br>protect_zero = false<br>controller_hotkeys = true<br>(Turn off RR with A + Guide Button) | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Call of Duty: Classic | protect_zero = false | No
 | Call of Duty: Modern Warfare | Use TU 4<br>cl = "r_vsync 0" | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
-| Call of Duty: Modern Warfare 2 | cl = "+r_vsync 0 +com_maxfps 0" | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Call of Duty: Modern Warfare 2 | cl = "+r_vsync 0 +com_maxfps 0"<br>query_occlusion_fake_sample_count = 1000 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Call of Duty: Modern Warfare 3 | [System Link](https://raw.githubusercontent.com/A1eNaz/Xenia-Game-Settings/main/Game%20FIles/MW3SystemLink.zip)<br>cl = "r_vsync 0"<br><br>Netplay Config:<br>allow_plugins = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Call of Juarez: Bound in Blood | vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Captain America: Super Soldier | gpu_allow_invalid_fetch_constants = true | No
@@ -178,7 +178,7 @@ Why do my DLCs not work?
 | Halo 3 ODST | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | No
 | Halo 4 | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook)<br>d3d12_readback_resolve = true<br>query_occlusion_fake_sample_count = -1 | No
 | Halo Reach | [Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook)<br>query_occlusion_fake_sample_count = -1 | No
-| UNO RUSH | vsync = false<br>framerate_limit = 0<br>draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| H.A.W.X. 2 | gpu_allow_invalid_fetch_constants = true<br>clear_memory_page_state = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Hitman: Absolution | protect_zero = false<br>d3d12_readback_resolve = true | No
 | Hydro Thunder Hurricane | d3d12_readback_resolve = true | No
 | Iron Brigade | [Black Shading Fix](https://github.com/xenia-project/game-compatibility/issues/1238#issuecomment-1870233542)<br>framerate_limit = 120<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
@@ -223,7 +223,7 @@ Why do my DLCs not work?
 | Need for Speed: Most Wanted 2005 | use_dedicated_xma_thread = false<br>use_new_decoder = true<br>scribble_heap = true<br>framerate_limit = 120 | No
 | Need for Speed: Most Wanted 2012 | d3d12_readback_memexport = true | No
 | Need for Speed: Pro Street | | No
-| NeverDead | render_target_path_d3d12 = "rov" | No
+| NeverDead | render_target_path_d3d12 = "rov" | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | NHL 11 | protect_zero = false<br>disassemble_functions = true | No
 | NieR | d3d12_readback_resolve = true<br>vsync = false<br>framerate_limit = 0 | No
 | Nier Gestalt | d3d12_readback_resolve = true<br>vsync = false<br>framerate_limit = 0 | No
@@ -234,7 +234,7 @@ Why do my DLCs not work?
 | Operation Darkness | use_fuzzy_alpha_epsilon = false | No
 | PAYDAY 2 | Use TU 1<br>vsync = false<br>framerate_limit = 0 | No
 | Perfect Dark | Use TU 3, switch back to base if TU 3 won't work<br>[Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook)<br>[Shading Fix](https://github.com/xenia-canary/game-patches/blob/main/patches/584109C2%20-%20Perfect%20Dark.patch.toml)<br>[Shading Fix TU3](https://github.com/xenia-canary/game-patches/blob/main/patches/584109C2%20-%20Perfect%20Dark%20(TU3).patch.toml)<br>query_occlusion_fake_sample_count = -1<br>internal_display_resolution = 16 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
-| Perfect Dark Zero | use_dedicated_xma_thread = false<br>use_new_decoder = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Perfect Dark Zero | use_dedicated_xma_thread = false<br>use_new_decoder = true<br>vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Panzer General: Allied Assault | d3d12_readback_resolve = true<br>clear_memory_page_state = true | No
 | Pid | break_on_unimplemented_instructions = false<br>protect_zero = false | No
 | Pinball FX | internal_display_resolution = 16 | No
@@ -293,7 +293,7 @@ Why do my DLCs not work?
 | Sonic Unleashed | Use TU 2<br>[Setup Guide](https://gamebanana.com/tuts/17062) | No
 | SOULCALIBUR II HD | clear_memory_page_state = true | No
 | Spec Ops: The Line | vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
-| Spider-Man Web of Shadows | vsync = false<br>framerate_limit = 0 | No
+| Spider-Man Web of Shadows | framerate_limit = 120 | No
 | Splinter Cell: Double Agent | Use TU 1<br>use_dedicated_xma_thread = false<br>use_new_decoder = true<br>protect_zero = false | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | SpongeBob HeroPants | protect_zero = false<br>break_on_unimplemented_instructions = false<br>render_target_path_d3d12 = "rov" | No
 | SSX | d3d12_readback_resolve = true | No
@@ -324,6 +324,7 @@ Why do my DLCs not work?
 | Trials HD | d3d12_readback_resolve = true | No
 | UFC Undisputed 3 | gpu_allow_invalid_fetch_constants = true<br>d3d12_readback_resolve = true | No
 | Ultra Street Fighter IV | draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| UNO | vsync = false<br>framerate_limit = 0<br>draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | UNO RUSH | vsync = false<br>framerate_limit = 0<br>draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2 | No
 | Vampire Rain | draw_resolution_scale_x = 2<br>draw_resolution_scale_y = 2 | No
 | Virtua Fighters 5 | apu_max_queued_frames = 16<br>use_new_decoder = true<br>use_dedicated_xma_thread = false | No
