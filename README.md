@@ -169,7 +169,7 @@ Why do my DLCs not work?
 | GoldenEye: 007 Reloaded | query_occlusion_fake_sample_count = -1 | No
 | GoldenEye XBLA | [Community Edition Updater](http://n64vault.com/ge-xbla-tools:community-edition-updater)<br>[Mousehook](https://github.com/marinesciencedude/xenia-canary-mousehook) | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Grand Theft Auto IV | Use TU 8<br>gpu = vulkan<br>apu_max_queued_frames = 16 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
-| Grand Theft Auto V | Use TU 26<br>[No Water Waves TU 26](https://drive.google.com/file/d/1-d8NAPTyP3tRXYhFJrjfyGFOIeAcfupY/view)<br>d3d12_readback_resolve = true<br>protect_zero = false<br>query_occlusion_fake_sample_count = -1 (Fixes Sun Flare clipping)<br>query_occlusion_fake_sample_count = 1000 (Makes Phone Camera work) | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Grand Theft Auto V | Use TU 26<br>[No Water Waves TU 26](https://drive.google.com/file/d/1k8_kUjXRChyzqKlMDoGVKAv3vNGlUfN8/view)<br>d3d12_readback_resolve = true<br>protect_zero = false<br>query_occlusion_fake_sample_count = -1<br>(Fixes Sun Flare clipping)<br>query_occlusion_fake_sample_count = 1000<br>(Makes Phone Camera work) | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Grand Theft Auto: San Andreas | you probably get a better time playing the Definitive Edition instead | No
 | GRID 2 | d3d12_readback_resolve = true<br>vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | GUILTY GEAR 2 | d3d12_readback_resolve = true | No
@@ -258,14 +258,14 @@ Why do my DLCs not work?
 | Rainbow Six: Vegas 2 | vsync = false<br>framerate_limit = 0<br>clear_memory_page_state = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Rayman Legends | internal_display_resolution = 16 | No
 | Rayman Origins | internal_display_resolution = 16 | No
-| Red Dead Redemption | [Mouse & Keyboard, check my comment (GOTY Only)](https://www.youtube.com/watch?v=2t1xC4YXGRQ)<br>[Reality Redemption](https://gtaforums.com/topic/989469-rel-wip-rdr-reality-redemption-overhaul-project/)<br>[Unlock Social Club Content](https://github.com/joever2022/Xenia-Game-Settings/blob/main/RDR1%20Social%20Club.png)<br>vsync = false<br>framerate_limit = 0<br>query_occlusion_fake_sample_count = -1 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Red Dead Redemption | [Mouse & Keyboard, check my comment (GOTY Only)](https://www.youtube.com/watch?v=2t1xC4YXGRQ)<br>[Reality Redemption](https://gtaforums.com/topic/989469-rel-wip-rdr-reality-redemption-overhaul-project/)<br>[Unlock Social Club Content](https://github.com/joever2022/Xenia-Game-Settings/blob/main/RDR1%20Social%20Club.png)<br>framerate_limit = 120<br>query_occlusion_fake_sample_count = -1 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Red Faction: Armageddon | vsync = false<br>framerate_limit = 0<br>d3d12_readback_resolve = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Red Faction: Guerrilla | vsync = false<br>framerate_limit = 0<br>query_occlusion_fake_sample_count = -1 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Red Johnson | d3d12_readback_resolve = true<br>vsync = false<br>framerate_limit = 0 | No
 | Resident Evil: Operation Raccoon City | d3d12_readback_resolve = true<br>query_occlusion_fake_sample_count = -1<br>vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Ridge Racer Unbounded | query_occlusion_fake_sample_count = -1<br>vsync = false<br>framerate_limit = 0 | No
 | Sacred 2: Fallen Angel | protect_zero = false<br>internal_display_resolution = 16 | No
-| Saints Row | Use TU 1<br>apu_max_queued_frames = 16<br>protect_zero = false | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Saints Row | Use TU 1<br>apu_max_queued_frames = 16<br>protect_zero = false | certain someone had to ruin it.
 | Saints Row 2 | Use TU 3<br>apu_max_queued_frames = 16<br>protect_zero = false<br>query_occlusion_fake_sample_count = -1 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Saints Row the Third | Use TU 4<br>d3d12_readback_resolve = true<br>render_target_path_d3d12 = "rov"<br>protect_zero = false<br>vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Saints Row IV | Use TU 7<br>d3d12_readback_resolve = true<br>render_target_path_d3d12 = "rov"<br>protect_zero = false<br>vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
