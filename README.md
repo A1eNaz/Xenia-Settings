@@ -20,7 +20,7 @@ Where do i obtain Game Patches from?
 - You can obtain Game [Patches](https://github.com/xenia-canary/game-patches/releases/latest/download/game-patches.zip) from here or from this [link.](https://github.com/xenia-canary/game-patches)
 
 Some games don't have a 60/Unlocked FPS Patch.
-- 3 Options:<br>See if the Game's FPS increases with vsync off and framerate_limit set to 0<br>If that didn't work, then wait for a patch<br>Or use [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/) with this [config](https://github.com/joever2022/test/blob/main/LS%20Config.png), You can also use this for games that speedup when vsync is disabled, Some games have major artifacting when using this app. (most notably RDR) (The app costs 7 dollars tho.)
+- 3 Options:<br>See if the Game's FPS increases with vsync off and framerate_limit set to 0<br>If that didn't work, then wait for a patch<br>Or use [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/) with this [config](https://github.com/A1eNaz/Xenia-Game-Settings/blob/main/Pics/LS%20Config.png), You can also use this for games that speedup when vsync is disabled, Some games have major artifacting when using this app. (most notably RDR) (The app costs 7 dollars tho.)
 
 Are there achievements for Xenia?
 - Kinda but it's merely cosmetic, it will be a full feature with progress tracking in the future.
@@ -85,7 +85,7 @@ Why do my DLCs not work?
 | Borderlands 2 | vsync = false<br>framerate_limit = 0<br>use_dedicated_xma_thread = false<br>use_new_decoder = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Borderlands: The Pre-Sequel | vsync = false<br>framerate_limit = 0<br>use_dedicated_xma_thread = false<br>use_new_decoder = true<br>clear_memory_page_state = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Brothers in Arms: Hell's Highway | render_target_path_d3d12 = "rov" | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
-| Bulletstorm | render_target_path_d3d12 = "rov" | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Bulletstorm | render_target_path_d3d12 = "rov"<br>clear_memory_page_state = true<br>framerate_limit = 120 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Call of Duty 3 | render_target_path_d3d12 = "rov" | No
 | Call of Duty: Advanced Warfare | Use TU 17<br>d3d12_readback_resolve = true<br>protect_zero = false<br>controller_hotkeys = true<br>(Turn off RR with A + Guide Button) | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Call of Duty: Classic | protect_zero = false | No
@@ -157,8 +157,8 @@ Why do my DLCs not work?
 | Frogger: Hyper Arcade Edition | break_on_unimplemented_instructions = false | No
 | Frontlines: Fuel of War | protect_zero = false<br>vsync = false<br>framerate_limit = 0<br>disassemble_functions = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Fuse | d3d12_readback_resolve = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
-| Gears of War | Use TU 5<br>apu_max_queued_frames = 16<br>vsync = false<br>framerate_limit = 0<br>[Black Shading Fix](https://github.com/xenia-canary/game-patches/blob/main/patches/4D5307D5%20-%20Gears%20of%20War.patch.toml)<br>[Black Shading Fix TU5](https://github.com/xenia-canary/game-patches/blob/main/patches/4D5307D5%20-%20Gears%20of%20War.patch.toml) | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
-| Gears of War 2 | Use TU 6<br>vsync = false<br>framerate_limit = 0<br>[Black Shading Fix](https://github.com/xenia-canary/game-patches/blob/main/patches/4D53082D%20-%20Gears%20of%20War%202.patch.toml)<br>[Black Shading Fix TU6](https://github.com/xenia-canary/game-patches/blob/main/patches/4D53082D%20-%20Gears%20of%20War%202%20(TU6).patch.toml) | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Gears of War | Use TU 5<br>[FOV Guide](https://youtu.be/giOPQDMfiKI)<br>apu_max_queued_frames = 16<br>vsync = false<br>framerate_limit = 0<br>[Black Shading Fix](https://github.com/xenia-canary/game-patches/blob/main/patches/4D5307D5%20-%20Gears%20of%20War.patch.toml)<br>[Black Shading Fix TU5](https://github.com/xenia-canary/game-patches/blob/main/patches/4D5307D5%20-%20Gears%20of%20War.patch.toml) | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Gears of War 2 | Use TU 6<br>[FOV Guide](https://youtu.be/giOPQDMfiKI)<br>vsync = false<br>framerate_limit = 0<br>[Black Shading Fix](https://github.com/xenia-canary/game-patches/blob/main/patches/4D53082D%20-%20Gears%20of%20War%202.patch.toml)<br>[Black Shading Fix TU6](https://github.com/xenia-canary/game-patches/blob/main/patches/4D53082D%20-%20Gears%20of%20War%202%20(TU6).patch.toml) | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Gears of War 3 | [Extended FOV](https://raw.githubusercontent.com/A1eNaz/Xenia-Game-Settings/main/Game%20FIles/GoW3%20Extended%20FOV.zip)<br>protect_zero = false<br>vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Gears of War: Judgment | vsync = false<br>framerate_limit = 0 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Geometry Wars: Retro Evolved | apu_max_queued_frames = 16<br>use_new_decoder = true<br>use_dedicated_xma_thread = false | No
@@ -258,7 +258,7 @@ Why do my DLCs not work?
 | Rainbow Six: Vegas 2 | vsync = false<br>framerate_limit = 0<br>clear_memory_page_state = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Rayman Legends | internal_display_resolution = 16 | No
 | Rayman Origins | internal_display_resolution = 16 | No
-| Red Dead Redemption | [Mouse & Keyboard, check my comment (GOTY Only)](https://www.youtube.com/watch?v=2t1xC4YXGRQ)<br>[Reality Redemption](https://gtaforums.com/topic/989469-rel-wip-rdr-reality-redemption-overhaul-project/)<br>[Unlock Social Club Content](https://github.com/joever2022/Xenia-Game-Settings/blob/main/RDR1%20Social%20Club.png)<br>framerate_limit = 120<br>query_occlusion_fake_sample_count = -1 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
+| Red Dead Redemption | [Mouse & Keyboard, check my comment (GOTY Only)](https://www.youtube.com/watch?v=2t1xC4YXGRQ)<br>[Reality Redemption](https://gtaforums.com/topic/989469-rel-wip-rdr-reality-redemption-overhaul-project/)<br>[Unlock Social Club Content](https://github.com/A1eNaz/Xenia-Game-Settings/blob/main/Pics/RDR1%20Social%20Club.png)<br>framerate_limit = 120<br>query_occlusion_fake_sample_count = -1 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Red Faction: Armageddon | vsync = false<br>framerate_limit = 0<br>d3d12_readback_resolve = true | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Red Faction: Guerrilla | vsync = false<br>framerate_limit = 0<br>query_occlusion_fake_sample_count = -1 | [Yes](https://github.com/AdrianCassar/xenia-canary/wiki)
 | Red Johnson | d3d12_readback_resolve = true<br>vsync = false<br>framerate_limit = 0 | No
