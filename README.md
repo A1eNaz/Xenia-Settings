@@ -1,4 +1,4 @@
-# Xenia Config Settings for Games
+# Xenia FAQ
 
 Where do i download the latest canary from?
 - You download it from [here](https://github.com/xenia-canary/xenia-canary/releases/download/experimental/xenia_canary.zip) or this [link](https://github.com/xenia-canary/xenia-canary/releases)
