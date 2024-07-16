@@ -1,42 +1,5 @@
-# Xenia FAQ
-
-Where do i download the latest canary from?
-- You download it from [here](https://github.com/xenia-canary/xenia-canary/releases/download/experimental/xenia_canary.zip) or this [link](https://github.com/xenia-canary/xenia-canary/releases)
-
-How do i play games on Xenia with Online Support?
-- You can get it from this [link.](https://github.com/AdrianCassar/xenia-canary/wiki)<br>[Video Guide](https://youtu.be/NnjGLTQig3U) here.<br>[Server Guide](https://youtu.be/_PgF_g6alNc) here.
-
-How do i use Mouse & Keyboard for Xenia?
-- From this [link](https://github.com/marinesciencedude/xenia-canary-mousehook) but only a few games have Mouse Support.
-You can make your own Keybinds with this method in the bindings.ini file:<br>
-[Media ID - Game Name]<br>
-Keybind = Controller Bind<br>
-[eg. W = LS-Up]most
-
-How do i play games with 2 discs?
-- Can't be bothered to write a guide so just follow Sowa_95's video: https://youtube.com/clip/Ugkx4hDbFhE9AKnRKHwOR_1TrCWK-DnulaZd?si=sc6Ufgx4BSl1h2_C
-
-Where do i obtain Game Patches from?
-- You can obtain Game [Patches](https://github.com/xenia-canary/game-patches/releases/latest/download/game-patches.zip) from here or from this [link.](https://github.com/xenia-canary/game-patches)
-
-Some games don't have a 60/Unlocked FPS Patch.
-- 3 Options:<br>See if the Game's FPS increases with vsync off and framerate_limit set to 0<br>If that didn't work, then wait for a patch<br>Or use [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/) with this [config](https://github.com/A1eNaz/Xenia-Game-Settings/blob/main/Pics/LS%20Config.png), You can also use this for games that speedup when vsync is disabled, Some games have major artifacting when using this app. (most notably RDR) (The app costs 7 dollars tho.)
-
-Are there achievements for Xenia?
-- Kinda but it's merely cosmetic, it will be a full feature with progress tracking in the future.
-This is how you enable it:<br>
-show_achievement_notification = true<br>
-notification_sound_path = "C:/Xenia/360 notification.wav"<br>
-custom_font_path = "C:/Xenia/Conv.ttf"<br>
-Must be with forward /<br>
-[video](https://youtu.be/AWLHrMNl2CU) by Sowa_95 showcases it with some games.
-
-Why do my XBLA games play on Trial mode?</br>
-Why do my DLCs not work?
-- Change license_mask = 1 (or license_mask = -1) in the xenia config
-
----
-
+### FAQ Stuff: https://github.com/A1eNaz/Xenia-Settings/wiki
+### Games List: https://github.com/A1eNaz/Xenia-Game-Settings/wiki
 ## Games List
 
 ## CTRL+F then search.
